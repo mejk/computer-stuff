@@ -5,7 +5,7 @@
 
 ----------------------
 
-- [Cross platform (Linux, Windows, Mac) software](word-processors-with-gui.md)
+- [Cross platform (Linux, Windows, Mac) software](cross-platform-software.md)
 
 - [VNC client and server installation](vnc-installation.md)
 - [VNC client and server basic use](vnc-how-to-use.md)
