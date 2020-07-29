@@ -5,6 +5,6 @@
 
 ----------------------
 
--  [VNC client and server installation](#vnc-installation.mdvnc-how-to-use.md)
+-  [VNC client and server installation](vnc-installation.md)
 -  [VNC client and server, basic use](#vnc-how-to-use.md)
 
