@@ -44,7 +44,7 @@ Now you should be logged in using the above tunnelling method. Now it is time to
      ```
      vncserver -kill :1
      ```
-  **2-a Do have the `xstartup` file in `~/.vnc`?** 
+  **2-check: Do have the `xstartup` file in `~/.vnc`?** 
    If you went through the server installation instructions, you do, but in case not (server was installed for you), this is what you should do (the script assumes that XFCE4 has been installed): A startup script is needed for the remote desktop configuration. We need to create file `~/.vnc/xstartup`. Use your favourite (ASCII) editor (I am using emacs) and ensure that it is executable (otherwise it won't work):
 
  ```
@@ -76,7 +76,7 @@ xhost local:
 vncconfig -nowin &
 xrdb $HOME/.Xresources
 exec startxfce4 
-``
+```
   
 
 **3. On remote: Start vnc server**
