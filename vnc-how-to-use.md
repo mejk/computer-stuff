@@ -44,6 +44,40 @@ Now you should be logged in using the above tunnelling method. Now it is time to
      ```
      vncserver -kill :1
      ```
+  **2-a Do have the `xstartup` file in `~/.vnc`?** 
+   If you went through the server installation instructions, you do, but in case not (server was installed for you), this is what you should do (the script assumes that XFCE4 has been installed): A startup script is needed for the remote desktop configuration. We need to create file `~/.vnc/xstartup`. Use your favourite (ASCII) editor (I am using emacs) and ensure that it is executable (otherwise it won't work):
+
+ ```
+  emacs ~/.vnc/xstartup
+  chmod a+x xstartup
+  ```
+  Here is the contents of the xstartup file (there are many other options but this works):
+  ```
+#!/bin/sh
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+export XKL_XMODMAP_DISABLE=1
+##-------------------------------
+## SELECT YOUR ENVIRONMENT (here, default is Budgie).
+## COMMENT/UNCOMMENT AS NECESSARY
+#
+# 1. Budgie: Doesn't work properly, don't use. 
+#            This is kept for possible future updates
+#xhost local:
+#gnome-session --session=budgie-desktop &
+#budgie-wm &
+#budgie-panel &
+
+# 2. XFCE4. 
+# Works well.
+# If problems occur: 
+#  - Check that xstartup is executable and that .Xresources and .Xauthority exist
+xhost local:
+vncconfig -nowin &
+xrdb $HOME/.Xresources
+exec startxfce4 
+``
+  
 
 **3. On remote: Start vnc server**
   Now, there should be no server running so we can start new one. Here's how:
