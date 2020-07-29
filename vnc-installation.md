@@ -95,7 +95,7 @@ Very simple:
 emacs ~/.vnc/xstartup
 chmod a+x xstartup
 ```
-Here is the contents (there are many other options but this works) that can be copied to the file:
+Here is the contents of the `xstartup` file (there are many other options but this works):
 ```
 #!/bin/sh
 unset SESSION_MANAGER
