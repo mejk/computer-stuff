@@ -1,4 +1,4 @@
-# VNC client and server
+# VNC client and server basic use
 
 <tt>Updated: Wed 29 Jul 15:57:01</tt>
 
