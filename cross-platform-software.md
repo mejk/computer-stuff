@@ -83,7 +83,7 @@ Here is a list of some cross-platform software. Unless mentioned otherwise, Linu
 ### Messaging, video calls, etc
 
 - [Wire](https://wire.com).  Works also on Android and iOS.
-  - Linux: Install via Software Center
+  - Linux: Install via Software Center or [Wire from github](https://github.com/wireapp/wire-desktop/wiki/How-to-install-Wire-for-Desktop-on-Linux)
 - [Telegram](https://telegram.org/). Works also on Android and iOS.
 - [Skype](https://www.skype.com). Works also on Android and iOS.
     - Linux: Install via Software Center
