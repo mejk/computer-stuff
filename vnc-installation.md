@@ -1,4 +1,4 @@
-# VNC client and server
+# VNC client and server installation
 
 **We are using Tigervnc**. It is fast and works with Linux, Windows and Mac.
 
@@ -13,6 +13,8 @@ Tested:
 
 
 --------
+
+## 0. Before you start: CHECK IF `vncviewer` and/or `vncserver` have already been installed!
 
 ## 1a. Install vnc client using package manager: TigerVNC in Ubuntu 20.04 
 
