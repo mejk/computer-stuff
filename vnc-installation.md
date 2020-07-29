@@ -11,10 +11,13 @@ Tested:
  - Ubuntu 18.04 LTS (client)
  - Ubuntu 16.04 LTS (client and server)
 
+ - Once installation is done, here are instructions how to use them: [VNC client and server basic use](https://github.com/mejk/computer-stuff/blob/master/vnc-how-to-use.md)
 
 --------
 
 ## 0. Before you start: Check if `vncviewer` and/or `vncserver` have already been installed!
+
+If not, then proceed.
 
 ## 1a. Install vnc client using package manager: TigerVNC in Ubuntu 20.04 
 
