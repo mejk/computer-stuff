@@ -5,6 +5,8 @@
 
 ----------------------
 
--  [VNC client and server installation](vnc-installation.md)
--  [VNC client and server basic use](vnc-how-to-use.md)
+- [Cross platform (Linux, Windows, Mac) software](word-processors-with-gui.md)
+
+- [VNC client and server installation](vnc-installation.md)
+- [VNC client and server basic use](vnc-how-to-use.md)
 - [SSH keys, config files and ssh agents](ssh-keys.md)
