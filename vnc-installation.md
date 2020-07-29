@@ -65,6 +65,9 @@ Now you can start the VNC viewer with the command
  vncviewer
  ```
 
+If you needed just the viewer, then you are done. Here are instructions how to it together with the server: [VNC client and server basic use](https://github.com/mejk/computer-stuff/blob/master/vnc-how-to-use.md)
+
+
 ## 2. Server installation: TigerVNC
 
 More information & the sources that were used:
@@ -182,4 +185,7 @@ sudo systemctl start vncserver@1
 ```
 sudo systemctl stop vncserver@1
 ```
+
+Here are instructions how to use the server & the viewer: [VNC client and server basic use](https://github.com/mejk/computer-stuff/blob/master/vnc-how-to-use.md)
+
 
