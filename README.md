@@ -5,8 +5,16 @@
 
 ----------------------
 
+## General
+
 - [Cross platform (Linux, Windows, Mac) software](cross-platform-software.md)
+
+## VNC, SSH, etc
 
 - [VNC client and server installation](vnc-installation.md)
 - [VNC client and server basic use](vnc-how-to-use.md)
 - [SSH keys, config files and ssh agents](ssh-keys.md)
+
+## Ubuntu
+
+- [Installation of CUDA and Nvidia drivers & TensorFlow (Ubuntu 20.04 LTS)](ubuntu/cuda-and-nvidia-drivers.md)
