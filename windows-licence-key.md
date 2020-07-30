@@ -13,14 +13,14 @@ Sometimes the product key is listed in Bios or listed in Windows' settings, but 
 ## 1. Within Windows using two possible methods
  - (tried on MSI, Samsung, Dell XPS) 
 
-
-1.1 Open the Windows command window in administrator mode and give the command
+**Option 1:**
+ Open the Windows command window in administrator mode and give the command
 
 ```
 wmic path softwarelicensingservice get OA3xOriginalProductKey
 ```
-
-1.2. or alternatively, use the Windows PowerShell in administrator mode and give the command:
+**Option 2:**
+ or alternatively, use the Windows PowerShell in administrator mode and give the command:
 
 ```
 powershell “(Get-WmiObject -query ‘select * from SoftwareLicensingService’).OA3xOriginalProductKey”
