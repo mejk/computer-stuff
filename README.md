@@ -18,6 +18,7 @@
 ## Ubuntu
 
 - [Installation of CUDA and Nvidia drivers & TensorFlow (Ubuntu 20.04 LTS)](ubuntu/cuda-and-nvidia-drivers.md)
+  - TensorFlow 2 with & without GPU support using Docker.
 - [Word processors with GUI: WPS Office and LibreOffice](ubuntu/word-processors-with-gui.md)
   - WPS Office with the extra fonts installed (instructions provided) is an excellent MS Office replacement with very high degree of compatibility.
   - LibreOffice connects well with JabRef reference manager, supports LaTeX math (via a plugin) and has great support for scalable vector graphics.
