@@ -25,6 +25,7 @@
   - LibreOffice connects well with JabRef reference manager, supports LaTeX math (via a plugin) and has great support for scalable vector graphics.
 - [Ubuntu/Linux tips and tricks](ubuntu/ubuntu-tips-and-tricks.md)
 - [Wipe out Windows and install Ubuntu only](ubuntu/new-computer-linux-only-win-preinstalled.md)
+  - You can always install Windows in VirtualBox
 - Dual boot Windows 10 / Ubuntu
 
 ## Windows
