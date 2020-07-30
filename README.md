@@ -34,3 +34,6 @@
   - For example: if you wipe out Windows, you may still want to install it in VirtualBox and then you need the key (and you have already paid for it)
 - [How to remove BitLocker](windows/bitlocker.md)
   - This may be important when creating a dual boot computer.
+- WSL (Ubuntu shell) and GUI software
+  - Works great when you install [Vcssrv](https://sourceforge.net/projects/vcxsrv/) or [Xming](https://sourceforge.net/projects/xming/)
+
