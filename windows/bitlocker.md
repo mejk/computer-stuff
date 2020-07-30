@@ -21,7 +21,7 @@ Essentially it is a disk encryption method that is set on in many of the new com
     - [How to remove BitLocker in Windows 10](http://users.isr.ist.utl.pt/~mbayat/hacks/how-to-remove-bitlocker-encryption-in-windows-10/)
 
 
-##Let's remove BitLocker:
+## Let's remove BitLocker:
 
 1. Open the power shell as administrator, by right clicking on it and choosing “Run as Administrator”.
 Check the encryption status of each drive by entering:
