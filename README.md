@@ -9,7 +9,7 @@
 ## General
 
 - [Cross platform (Linux, Windows, Mac) software](cross-platform-software.md)
- - Word processors, reference managers, graphics, communication, programming, etc.
+  - Word processors, reference managers, graphics, communication, programming, etc.
 
 ## VNC, SSH, etc
 
