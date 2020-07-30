@@ -4,7 +4,7 @@
 If Windows 10 is (pre-)installed, then you have already paid for the Windows 10 licence. It is a very good idea to get the Windows OEM product 
 key from your computer in case something goes wrong and you need to reinstall or you wish to wipe out Windows and install it in VirtualBox. 
 
-Sometimes the product key is listed in Bios or listed in Windows' settings, but that is often not the case. The key ca, however, be extracted from Windows. Here is how to do it.
+Sometimes the product key is listed in Bios or listed in Windows' settings, but that is often not the case. The key can, however, be extracted from Windows. Here is how to do it.
 
 - More info:
  - [How to Find Your Windows 10 Product Key Using the Command Prompt](https://www.howtogeek.com/660517/how-to-find-your-windows-10-product-key-using-the-command-prompt/)
