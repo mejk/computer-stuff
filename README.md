@@ -24,6 +24,8 @@
   - WPS Office with the extra fonts installed (instructions provided) is an excellent MS Office replacement with very high degree of compatibility.
   - LibreOffice connects well with JabRef reference manager, supports LaTeX math (via a plugin) and has great support for scalable vector graphics.
 - [Ubuntu/Linux tips and tricks](ubuntu/ubuntu-tips-and-tricks.md)
+- [Wipe out Windows and install Ubuntu only](ubuntu/new-computer-linux-only-win-preinstalled.md)
+- Dual boot Windows 10 / Ubuntu
 
 ## Windows
 
