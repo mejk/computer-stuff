@@ -19,7 +19,7 @@
 
 - [Installation of CUDA and Nvidia drivers & TensorFlow (Ubuntu 20.04 LTS)](ubuntu/cuda-and-nvidia-drivers.md)
 - [Word processors with GUI: WPS Office and LibreOffice](ubuntu/word-processors-with-gui.md)
-- [Ubuntu/Linux tips and tricks](ubuntu/tips-and-tricks.md)
+- [Ubuntu/Linux tips and tricks](ubuntu/ubuntu-tips-and-tricks.md)
 
 ## Windows
 
