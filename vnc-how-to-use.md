@@ -8,7 +8,7 @@
 - The connection method used here is `ssh` tunneling due to its safety. See, for example, [Accessing vncserver via SSH tunnels](https://wiki.archlinux.org/index.php/TigerVNC#Accessing_vncserver_via_SSH_tunnels). 
 - It is assumed that the VNC server is not running (automatically started at startup). Here, we access the remote computer and start the service and terminate it at the end.
 
-## 1. Linux client Linux remote: Create an ssh tunnel from your computer to the remote computer 
+## 1. Linux client, Linux remote: Create an ssh tunnel from your computer to the remote computer 
   - Assuming Linux host and Linux remote computer
 
 **1.1 On local host: Create a tunnel between the host (your local computer) and remote computer:**
@@ -113,7 +113,7 @@ exec startxfce4
 
 With the above, you should be able to establish VNC sessions from Linux to Linux.
 
-## 2. Windows client Linux remote 
+## 2. Windows client, Linux remote 
 
 **2.1 Case 1:** Using WSL (Windows Subsystem for Linux)
 
