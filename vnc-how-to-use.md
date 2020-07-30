@@ -126,7 +126,8 @@ With the above, you should be able to establish VNC sessions from Linux to Linux
   
 **2.1 Case 1: Using putty and TigerVNC**
 
-- You need to login to the remote computer and start the server using your `ssh client`. That means executing steps **1.2 - 1.3**
+- This assumes that putty has been installed
+- You need to login to the remote computer and start the server using your `ssh client` (putty in this case). That means executing steps **1.2 - 1.3**
 - Create a tunnel using putty. 
   - See these sites for instrcutions:
     - [How to Tunnel VNC over SSH](https://helpdeskgeek.com/how-to/tunnel-vnc-over-ssh/)
