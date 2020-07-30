@@ -12,7 +12,8 @@ Essentially it is a disk encryption method that is set on in many of the new com
 
 If you plan to use Windows only, there is no real need. However, if you plan to install dual boot it can be quite a pain. 
 
-- It may work even with dual boot, see [How to install Ubuntu alongside BitLocker encrypted Windows 10](https://askubuntu.com/questions/1135654/how-to-install-ubuntu-alongside-bitlocker-encrypted-windows-10) and [How To Mount BitLocker-Encrypted Windows Partitions On Linux](https://www.linuxuprising.com/2019/04/how-to-mount-bitlocker-encrypted.html). However, I have had lots of bad experiences especially with computer that have been used for some time before decideing on dual boot. The practical problem is that one needs to partition the SSD/hard drive, it may be really hard to get a large enough a partition for Linux. This is why I have typically ended up removing BitLocker. 
+- It may work even with dual boot, see [How to install Ubuntu alongside BitLocker encrypted Windows 10](https://askubuntu.com/questions/1135654/how-to-install-ubuntu-alongside-bitlocker-encrypted-windows-10) and [How To Mount BitLocker-Encrypted Windows Partitions On Linux](https://www.linuxuprising.com/2019/04/how-to-mount-bitlocker-encrypted.html). 
+- However, I have had lots of bad experiences especially with computer that have been used for some time before decideing on dual boot. The practical problem is that one needs to partition the SSD/hard drive, it may be really hard to get a large enough a partition for Linux as the SSD/HD gets fragmented. This is why I have typically ended up removing BitLocker. 
 
 Here is the source for the information below:
   - [How to remove BitLocker in Windows 10](http://users.isr.ist.utl.pt/~mbayat/hacks/how-to-remove-bitlocker-encryption-in-windows-10/)
@@ -51,4 +52,8 @@ to see until it is done.
 
 5. Restart the PC.
 
-After this, you should be able to partition the SSD/HD.
+6. For creating a dual boot computer: If you have a computer that has been used for some time, run defragging. It may be that Window's own defraggler doesn't do such a great job (if you want more space for your dual boot partition). In some cases these have worked better:
+ - Defraggler
+ - Auslogics Disk Defrag 
+ - However, the most efficient solution has been to reinstall Windows now that BitLocker has been removed, then partition the SSD/HD, and then install Linux.
+
