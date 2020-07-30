@@ -6,7 +6,18 @@
 
 ----------------------
 
-## General
+## Before we start: Here are some sites for Linux-related news etc:
+Lots of stuff below is based on these sources. 
+
+- [It's FOSS](https://itsfoss.com)
+- [OMG Ubuntu](https://www.omgubuntu.co.uk/)
+- [nixCraft](https://www.cyberciti.biz/)
+- [Linux Insider](https://linuxinsider.com/)
+- [Linux Magazine](https://www.linux-magazine.com)
+
+---------------------
+
+## General cross-platform software
 
 - [Cross platform (Linux, Windows, Mac) software](cross-platform-software.md)
   - Word processors, reference managers, graphics, communication, programming, etc.
