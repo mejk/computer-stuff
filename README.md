@@ -24,3 +24,6 @@
 ## Windows
 
 - [How to find your Windows licence key](windows-licence-key.md)
+  - For example: if you wipe out Windows, you may still want to install it in VirtualBox and then you need the key (and you have already paid for it)
+- [How to remove BitLocker](windows/bitlocker.md)
+  - This may be important when creating a dual boot computer.
