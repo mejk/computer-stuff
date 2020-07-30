@@ -2,7 +2,7 @@
 
 - Tested on Dell XPS 13
 
-** What is bitlocker**
+**What is bitlocker**
 - See:
   - (BitLocker from Wikipedia)[https://en.wikipedia.org/wiki/BitLocker]
 
