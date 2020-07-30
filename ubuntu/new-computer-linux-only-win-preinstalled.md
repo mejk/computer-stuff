@@ -1,5 +1,15 @@
 # New computer came with windows pre-installed but you want Linux only
 
+Works also if you just want to wipe out Windows from your old computer and make it Ubuntu (Linux) only. 
+
+<tt>Updated: Wed 29 Jul 22:58:32</tt>
+
+- Tested:
+  - Lenovo Yoga X11
+  - Dell XPS 13
+  - Alienware R8 desktop with NVIDIA RTX 2070 Super
+-------------------------------
+
 ## Preparations
 
 - **Need:** 1 USB for creating a bootable USB for your Linux installation. If you want (can be done later), another USB for creating Windows installation media.
