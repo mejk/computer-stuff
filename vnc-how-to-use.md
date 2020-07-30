@@ -8,10 +8,10 @@
 - The connection method used here is `ssh` tunneling due to its safety. See, for example, [Accessing vncserver via SSH tunnels](https://wiki.archlinux.org/index.php/TigerVNC#Accessing_vncserver_via_SSH_tunnels). 
 - It is assumed that the VNC server is not running (automatically started at startup). Here, we access the remote computer and start the service and terminate it at the end.
 
-## Linux: Create an ssh tunnel from your computer to the remote computer 
+## 1. Linux client Linux remote: Create an ssh tunnel from your computer to the remote computer 
   - Assuming Linux host and Linux remote computer
 
-**1. On local host: Create a tunnel between the host (your local computer) and remote computer:**
+**1.1 On local host: Create a tunnel between the host (your local computer) and remote computer:**
 ```
 ssh -L 5901:localhost:5901 -C -l username_on_remote_computer your_remote_computer
 ```
@@ -27,7 +27,7 @@ Here's what the above means:
   - `-C`: compresses data
   - `-l`: username on the remote computer
  
-**2. On remote: Check if a vnc server is already running**
+**1.2. On remote: Check if a vnc server is already running**
 Now you should be logged in using the above tunnelling method. Now it is time to start the `vnc` server:
   - Check first that there is no vnc server running:
     ```
@@ -44,7 +44,7 @@ Now you should be logged in using the above tunnelling method. Now it is time to
      ```
      vncserver -kill :1
      ```
-  **2-check: Do have the `xstartup` file in `~/.vnc`?** 
+  **1.2-check: Do have the `xstartup` file in `~/.vnc`?** 
    If you went through the server installation instructions, you do, but in case not (server was installed for you), this is what you should do (the script assumes that XFCE4 has been installed): A startup script is needed for the remote desktop configuration. We need to create file `~/.vnc/xstartup`. Use your favourite (ASCII) editor (I am using emacs) and ensure that it is executable (otherwise it won't work):
 
  ```
@@ -79,7 +79,7 @@ exec startxfce4
 ```
   
 
-**3. On remote: Start vnc server**
+**1.3. On remote: Start vnc server**
   Now, there should be no server running so we can start new one. Here's how:
          ```
      vncserver -geometry 800x600 -alwaysshared -localhost :1
@@ -91,7 +91,7 @@ exec startxfce4
         - `-alwaysshared`:  allows for shared desktops (not necessary, though)
         - For more options, check tha vncserver man pages.
  
- **4. On local: Start `vncviewer`**
+ **1.4. On local: Start `vncviewer`**
  Giving the command 
   ```
   vncviewer
@@ -102,7 +102,7 @@ exec startxfce4
   ```
   If you opened another port instead of 5901, then use that number. Check also the `Options` menu especially for `Input` as you probably want shared clipboard (if there are problems in connecting, you may need to check the `Security` menu.)
   
- **5. On remote: Stopping the vnc server** 
+ **1.5. On remote: Stopping the vnc server** 
  You can, of course leave the server running, but it is probably a good idea to terminate the process when you are dine with the session. This is done as instructed above, that is:  check the servers that are running and terminate them:
  
  ```
@@ -111,4 +111,18 @@ exec startxfce4
  ```
    - the wildcard `*` kills all the `vncserver` processes.
 
-With the above, you should be able to establish VNC sessions.
+With the above, you should be able to establish VNC sessions from Linux to Linux.
+
+## 2. Windows client Linux remote 
+
+**2.1 Case 1:** Using WSL (Windows Subsystem for Linux)
+
+- This assumes that WSL has been installed.
+- Steps **1.1 - 1.3** are the same. In this case you just open an Ubuntu shell on Windows go throuhg the steps
+- Step **1.5** stopping the `vncserver` is also the same.
+- The only difference is installation of TigerVNC. To do that:
+  - Go to [TigerVNC Releases](https://github.com/TigerVNC/tigervnc/releases) and get the binary for the latest version. There are binaries for the full TigerVNC cleint and server and client only. You just need the client. Install. 
+  - Start like any other program windows program. The interface is exactly the same for the Linux client, so see the comments in **1.4**.
+  
+  
+
