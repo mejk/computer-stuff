@@ -19,3 +19,7 @@
 
 - [Installation of CUDA and Nvidia drivers & TensorFlow (Ubuntu 20.04 LTS)](ubuntu/cuda-and-nvidia-drivers.md)
 - [Word processors with GUI: WPS Office and LibreOffice](ubuntu/word-processors-with-gui.md)
+
+## Windows
+
+- [How to find your Windows licence key](windows-licence-key.md)
