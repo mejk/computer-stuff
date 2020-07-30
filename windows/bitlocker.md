@@ -1,6 +1,8 @@
 # How to remove bitlocker encryption from Windows 10
    - Tested on Dell XPS 13
 
+---------------------------------
+
 **What is bitlocker**
 
 See:
