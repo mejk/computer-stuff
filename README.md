@@ -27,6 +27,7 @@
 - [Wipe out Windows and install Ubuntu only](ubuntu/new-computer-linux-only-win-preinstalled.md)
   - You can always install Windows in VirtualBox
 - Dual boot Windows 10 / Ubuntu
+- Java. How to check your current Java version? Like this: `java -version`. You may have/want different Java versions (JRE/Developmen Kit) on your computer. Here's how to switch between them: `sudo update-alternatives --config java`
 
 ## Windows
 
