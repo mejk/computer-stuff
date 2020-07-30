@@ -2,6 +2,7 @@
 
 - Random notes on various computer issues, installation etc.  
 - USE AT YOUR OWN RISK!
+- The installations described on the pages have been tested but mileage may vary.
 
 ----------------------
 
