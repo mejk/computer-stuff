@@ -81,7 +81,7 @@ exec startxfce4
 
 **1.3. On remote: Start vnc server**
   Now, there should be no server running so we can start new one. Here's how:
-         ```
+     ```
      vncserver -geometry 800x600 -alwaysshared -localhost :1
      ```
       - NOTES:
