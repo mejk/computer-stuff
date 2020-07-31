@@ -113,7 +113,7 @@ exec startxfce4
 
 With the above, you should be able to establish VNC sessions from Linux to Linux.
 
-## Do I have a vnc server running?
+## 1.6 Do I have a vnc server running?
 
 It may not be such a bad idea to add the following line at the end of your `.profile` file:
 ```
