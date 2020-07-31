@@ -81,15 +81,15 @@ exec startxfce4
 
 **1.3. On remote: Start vnc server**
   Now, there should be no server running so we can start new one. Here's how:
-     ```
-     vncserver -geometry 800x600 -alwaysshared -localhost :1
-     ```
-      - NOTES:
-        - `:1` means: X-Display number 1. If it is taken, change the number. This is also the number that `vncserver -list` shows. 
-        - `-geometry` gives the geomoetry of the window to be opened. It can of course be resized (check the options when you use the TigerVNC client)
-        - `-localhost`. This means that only local connections are allowed -- this is where tunneling comes to play. 
-        - `-alwaysshared`:  allows for shared desktops (not necessary, though)
-        - For more options, check tha vncserver man pages.
+  ```
+  vncserver -geometry 800x600 -alwaysshared -localhost :1
+  ```
+   - NOTES:
+       - `:1` means: X-Display number 1. If it is taken, change the number. This is also the number that `vncserver -list` shows. 
+       - `-geometry` gives the geomoetry of the window to be opened. It can of course be resized (check the options when you use the TigerVNC client)
+       - `-localhost`. This means that only local connections are allowed -- this is where tunneling comes to play. 
+       - `-alwaysshared`:  allows for shared desktops (not necessary, though)
+       - For more options, check tha vncserver man pages.
  
  **1.4. On local: Start `vncviewer`**
  Giving the command 
