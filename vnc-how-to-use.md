@@ -113,6 +113,14 @@ exec startxfce4
 
 With the above, you should be able to establish VNC sessions from Linux to Linux.
 
+## Do I have a vnc server running?
+
+It may not be such a bad idea to add the following line at the end of your `.profile` file:
+```
+vncserver -list
+```
+This shows you, upon login, if there is a vncserver running.
+
 ## 2. Windows client, Linux remote 
 
 **2.1 Case 1: Using WSL (Windows Subsystem for Linux)**
