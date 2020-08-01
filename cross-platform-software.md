@@ -1,9 +1,11 @@
 ## Cross-platform software (Linux, Windows, OSX)
 
 
-
 Here is a list of some cross-platform software. Unless mentioned otherwise, Linux, Windows and Mac are supported.
 
+- Linux note: If you don't have [Flatpack](https://flatpak.org/) installed, it may be a good idea install it as it provides an easy way to install and maintain the latest software versions.
+  - [Install Flatpack](https://flatpak.org/setup/Ubuntu/)
+  
 ### Word processors:
 
 - [LibreOffice](https://www.libreoffice.org/)
