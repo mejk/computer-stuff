@@ -55,5 +55,5 @@ Lots of stuff below is based on these sources.
   - NOTE: WSL and WSL2 are different. WSL will work easily on pretty much any Windows 10 system, WSL2 brings in a lot of great things but at this time (summer 2020) it is not for everyone.
   - [WSL and WSL2 from Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
   - [ESL and WSL2 from OMG Ubuntu](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10)
-  - Works great when you install [Vcssrv](https://sourceforge.net/projects/vcxsrv/) or [Xming](https://sourceforge.net/projects/xming/)
+  - GUI apps work great when you install [Vcssrv](https://sourceforge.net/projects/vcxsrv/) or [Xming](https://sourceforge.net/projects/xming/)
 
