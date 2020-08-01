@@ -52,5 +52,6 @@ Lots of stuff below is based on these sources.
 - [How to remove BitLocker](windows/bitlocker.md)
   - This may be important when creating a dual boot computer.
 - WSL (Ubuntu shell) and GUI software
+  - NOTE: WSL and WSL2 are different. WSL will work easily on pretty much any Windows 10 system, WSL2 brings in a lot of great things but at this time (summer 2020) it is not for everyone.
   - Works great when you install [Vcssrv](https://sourceforge.net/projects/vcxsrv/) or [Xming](https://sourceforge.net/projects/xming/)
 
