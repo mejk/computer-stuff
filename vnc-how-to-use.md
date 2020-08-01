@@ -44,7 +44,7 @@ Now you should be logged in using the above tunnelling method. Now it is time to
      ```
      vncserver -kill :1
      ```
-  **1.2-check: Do have the `xstartup` file in `~/.vnc`?** 
+  ## 1.3 On the remote: Create `xstartup` file in `~/.vnc`
    If you went through the server installation instructions, you do, but in case not (server was installed for you), this is what you should do (the script assumes that XFCE4 has been installed): A startup script is needed for the remote desktop configuration. We need to create file `~/.vnc/xstartup`. Use your favourite (ASCII) editor (I am using emacs) and ensure that it is executable (otherwise it won't work):
 
  ```
@@ -79,7 +79,7 @@ exec startxfce4
 ```
   
 
-### 1.3. On remote: Start vnc server
+### 1.4. On remote: Start vnc server
   Now, there should be no server running so we can start new one. Here's how:
   ```
   vncserver -geometry 800x600 -alwaysshared -localhost :1
@@ -91,7 +91,7 @@ exec startxfce4
        - `-alwaysshared`:  allows for shared desktops (not necessary, though)
        - For more options, check tha vncserver man pages.
  
-### 1.4. On local: Start `vncviewer`
+### 1.5. On local: Start `vncviewer`
  Giving the command 
   ```
   vncviewer
@@ -102,7 +102,7 @@ exec startxfce4
   ```
   If you opened another port instead of 5901, then use that number. Check also the `Options` menu especially for `Input` as you probably want shared clipboard (if there are problems in connecting, you may need to check the `Security` menu.)
   
- **1.5. On remote: Stopping the vnc server** 
+ ### 1.6. On remote: Stopping the vnc server  
  You can, of course leave the server running, but it is probably a good idea to terminate the process when you are dine with the session. This is done as instructed above, that is:  check the servers that are running and terminate them:
  
  ```
@@ -113,7 +113,7 @@ exec startxfce4
 
 With the above, you should be able to establish VNC sessions from Linux to Linux.
 
-### 1.6 Do I have a vnc server running?
+### 1.7 On the remote: Do I have a vnc server running?
 
 It may not be such a bad idea to add the following line at the end of your `.profile` file:
 ```
@@ -126,19 +126,19 @@ This shows you, upon login, if there is a vncserver running.
 ### 2.1 Case 1: Using WSL (Windows Subsystem for Linux)
 
 - This assumes that WSL has been installed.
-- Steps **1.1 - 1.3** are the same. In this case you just open an Ubuntu shell on Windows go throuhg the steps
-- Step **1.5** stopping the `vncserver` is also the same.
+- Steps **1.1 - 1.4** are the same. In this case you just open an Ubuntu shell on Windows go throuhg the steps
+- Step **1.6** stopping the `vncserver` is also the same.
 - The only difference is installation of TigerVNC. To do that:
   - Go to [TigerVNC Releases](https://github.com/TigerVNC/tigervnc/releases) and get the binary for the latest version. There are binaries for the full TigerVNC cleint and server and client only. You just need the client. Install. 
-  - Start like any other program windows program. The interface is exactly the same for the Linux client, so see the comments in **1.4**.
+  - Start like any other program windows program. The interface is exactly the same for the Linux client, so see the comments in **1.6**.
   
 ### 2.1 Case 1: Using putty and TigerVNC
 
 - This assumes that putty has been installed
-- You need to login to the remote computer and start the server using your `ssh client` (putty in this case). That means executing steps **1.2 - 1.3**
+- You need to login to the remote computer and start the server using your `ssh client` (putty in this case). That means executing steps **1.2 - 1.5**
 - Create a tunnel using putty. 
   - See these sites for instrcutions:
     - [How to Tunnel VNC over SSH](https://helpdeskgeek.com/how-to/tunnel-vnc-over-ssh/)
     - [VNC over ssh using putty in Windows](https://medium.com/@madhav2code/vnc-over-ssh-using-putty-in-windows-d82ac35dc25e)
 - Install TigerVNC as in case **2.1 Case 1**. 
-- - Step **1.5** stopping the `vncserver` is also the same as above.
+- - Step **1.6** stopping the `vncserver` is also the same as above.
