@@ -10,6 +10,7 @@
 Lots of stuff below is based on these sources. 
 
 - [It's FOSS](https://itsfoss.com)
+  - [It's FOSS has a lot of great How-tos.](https://itsfoss.com/category/how-to/)
 - [OMG Ubuntu](https://www.omgubuntu.co.uk/)
 - [nixCraft](https://www.cyberciti.biz/)
 - [Linux Insider](https://linuxinsider.com/)
