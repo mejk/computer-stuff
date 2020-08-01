@@ -18,7 +18,7 @@ Lots of stuff below is based on these sources.
 
 ---------------------
 
-## General cross-platform software
+## General cross-platform software: Linux, Windows & Mac
 
 - [Cross platform (Linux, Windows, Mac) software](cross-platform-software.md)
   - Word processors, reference managers, graphics, communication, programming, etc.
