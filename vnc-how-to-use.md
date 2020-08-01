@@ -1,6 +1,6 @@
 # VNC client and server basic use
 
-<tt>Updated: Wed 29 Jul 15:57:01</tt>
+<tt>Updated: Sat 1 Aug 09:57:01</tt>
 
 -----------------------------
 
