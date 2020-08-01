@@ -11,7 +11,7 @@
 ## 1. Linux client, Linux remote: Create an ssh tunnel from your computer to the remote computer 
   - Assuming Linux host and Linux remote computer
 
-**1.1 On local host: Create a tunnel between the host (your local computer) and remote computer:**
+### 1.1 On local host: Create a tunnel between the host (your local computer) and remote computer:
 ```
 ssh -L 5901:localhost:5901 -C -l username_on_remote_computer your_remote_computer
 ```
@@ -27,7 +27,7 @@ Here's what the above means:
   - `-C`: compresses data
   - `-l`: username on the remote computer
  
-**1.2. On remote: Check if a vnc server is already running**
+### 1.2. On remote: Check if a vnc server is already running 
 Now you should be logged in using the above tunnelling method. Now it is time to start the `vnc` server:
   - Check first that there is no vnc server running:
     ```
@@ -79,7 +79,7 @@ exec startxfce4
 ```
   
 
-**1.3. On remote: Start vnc server**
+### 1.3. On remote: Start vnc server
   Now, there should be no server running so we can start new one. Here's how:
   ```
   vncserver -geometry 800x600 -alwaysshared -localhost :1
@@ -91,7 +91,7 @@ exec startxfce4
        - `-alwaysshared`:  allows for shared desktops (not necessary, though)
        - For more options, check tha vncserver man pages.
  
- **1.4. On local: Start `vncviewer`**
+### 1.4. On local: Start `vncviewer`
  Giving the command 
   ```
   vncviewer
@@ -113,7 +113,7 @@ exec startxfce4
 
 With the above, you should be able to establish VNC sessions from Linux to Linux.
 
-## 1.6 Do I have a vnc server running?
+### 1.6 Do I have a vnc server running?
 
 It may not be such a bad idea to add the following line at the end of your `.profile` file:
 ```
@@ -123,7 +123,7 @@ This shows you, upon login, if there is a vncserver running.
 
 ## 2. Windows client, Linux remote 
 
-**2.1 Case 1: Using WSL (Windows Subsystem for Linux)**
+### 2.1 Case 1: Using WSL (Windows Subsystem for Linux)
 
 - This assumes that WSL has been installed.
 - Steps **1.1 - 1.3** are the same. In this case you just open an Ubuntu shell on Windows go throuhg the steps
@@ -132,7 +132,7 @@ This shows you, upon login, if there is a vncserver running.
   - Go to [TigerVNC Releases](https://github.com/TigerVNC/tigervnc/releases) and get the binary for the latest version. There are binaries for the full TigerVNC cleint and server and client only. You just need the client. Install. 
   - Start like any other program windows program. The interface is exactly the same for the Linux client, so see the comments in **1.4**.
   
-**2.1 Case 1: Using putty and TigerVNC**
+### 2.1 Case 1: Using putty and TigerVNC
 
 - This assumes that putty has been installed
 - You need to login to the remote computer and start the server using your `ssh client` (putty in this case). That means executing steps **1.2 - 1.3**
