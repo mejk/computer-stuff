@@ -129,10 +129,10 @@ This shows you, upon login, if there is a vncserver running.
 - Steps **1.1 - 1.4** are the same. In this case you just open an Ubuntu shell on Windows go throuhg the steps
 - Step **1.6** stopping the `vncserver` is also the same.
 - The only difference is installation of TigerVNC. To do that:
-  - Go to [TigerVNC Releases](https://github.com/TigerVNC/tigervnc/releases) and get the binary for the latest version. There are binaries for the full TigerVNC cleint and server and client only. You just need the client. Install. 
+  - Go to [TigerVNC Releases](https://github.com/TigerVNC/tigervnc/releases) and get the binary for the latest version. There are binaries for the full TigerVNC client and server and client only. You just need the client. Install. 
   - Start like any other program windows program. The interface is exactly the same for the Linux client, so see the comments in **1.6**.
   
-### 2.1 Case 1: Using putty and TigerVNC
+### 2.1 Case 2: Using putty and TigerVNC
 
 - This assumes that putty has been installed
 - You need to login to the remote computer and start the server using your `ssh client` (putty in this case). That means executing steps **1.2 - 1.5**
@@ -140,5 +140,9 @@ This shows you, upon login, if there is a vncserver running.
   - See these sites for instrcutions:
     - [How to Tunnel VNC over SSH](https://helpdeskgeek.com/how-to/tunnel-vnc-over-ssh/)
     - [VNC over ssh using putty in Windows](https://medium.com/@madhav2code/vnc-over-ssh-using-putty-in-windows-d82ac35dc25e)
-- Install TigerVNC as in case **2.1 Case 1**. 
+- Install TigerVNC as in **2.1 Case 1**. 
 - - Step **1.6** stopping the `vncserver` is also the same as above.
+
+## 2. OSX client, Linux remote 
+
+- Go to [TigerVNC Releases](https://github.com/TigerVNC/tigervnc/releases) and get the binary for the latest version. The binary inlcues the full TigerVNC client and server. To be able to connect to a Linux host, only the client is used. 
