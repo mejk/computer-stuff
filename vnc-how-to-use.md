@@ -145,4 +145,4 @@ This shows you, upon login, if there is a vncserver running.
 
 ## 2. OSX client, Linux remote 
 
-- Go to [TigerVNC Releases](https://github.com/TigerVNC/tigervnc/releases) and get the binary for the latest version. The binary inlcues the full TigerVNC client and server. To be able to connect to a Linux host, only the client is used. 
+Go to [TigerVNC Releases](https://github.com/TigerVNC/tigervnc/releases) and get the binary for the latest version. The binary inlcues the TigerVNC client. To be able to connect to a Linux host. Simply install it and as with both Linux and Windows, create an ssh tunnel and start the TigerVNC client.  
