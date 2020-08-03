@@ -88,17 +88,17 @@ Very simple:
 
 ### 2.1. Configure the server
 
-1. We want a lightwight desktop environment. The choice here is `XFCE4` simply because the server setup is straightforward and it works very well (and is lightweight). If you already have `XFCE4`, skip to the next step. If you don't have `XFCE4` installed, a minimal installation (=without the XFCE4 default software etc.; you can always add them later very easily) can be done very easily using the package manager:
+2.1.1. We want a lightwight desktop environment. The choice here is `XFCE4` simply because the server setup is straightforward and it works very well (and is lightweight). If you already have `XFCE4`, skip to the next step. If you don't have `XFCE4` installed, a minimal installation (=without the XFCE4 default software etc.; you can always add them later very easily) can be done very easily using the package manager:
   ```
   sudo apt install xfce4
   ```
 
-2. Create a password on the vnc server: 
+2.1.2. Create a password on the vnc server: 
   - IMPORTANT: *This is a password for the being able to access the VNC server, this is NOT the same as your password to access the system.*
    ```
    vncpasswd
    ```
-3. A startup script is needed for the remote desktop configuration. We need to create file `~/.vnc/xstartup`. Use your favourite (ASCII) editor (I am using emacs) and ensure that it is executable (otherwise it won't work):
+2.1.3. A startup script is needed for the remote desktop configuration. We need to create file `~/.vnc/xstartup`. Use your favourite (ASCII) editor (I am using emacs) and ensure that it is executable (otherwise it won't work):
 ```
 emacs ~/.vnc/xstartup
 chmod a+x xstartup
@@ -130,23 +130,23 @@ xrdb $HOME/.Xresources
 exec startxfce4 
 ```
 
-4. Check that the files (in your home directory) `.Xauthority` and `.Xresources` exist. If not, create them, e.g., `touch .Xresources`
+2.1.4. Check that the files (in your home directory) `.Xauthority` and `.Xresources` exist. If not, create them, e.g., `touch .Xresources`
 
-5. Start the server to try it out:
+2.1.5. Start the server to try it out:
 ```
 vncserver :1
 ```
-6. Stop the server
+2.1.6. Stop the server
 ```
 vncserver -kill:1
 ```
 
 
-## Optional (not for normal user): Make VNC server a service.
+## 2.2 Optional (not for normal user): Make VNC server a system service.
 
 *Only do this if you know what you are doing.*
 
-To do this, we need to create a new file called `vncserver@.service` and put it in `/etc/systemd/system`. 
+**2.2.1 To do this**, we need to create a new file called `vncserver@.service` and put it in `/etc/systemd/system`. 
 
 - IMPORTANT 1: This is in single user mode. The line `User` has the username of the user of this computer -> replace `foo` by the username. There is also a multiuser mode (see the Arch Linux page).
 - IMPORTANT 2: Check that the path to `vncserver` is correct for your system (this one works when TigerVNC is installed using the package manager).
@@ -175,13 +175,13 @@ ExecStop=/usr/bin/vncserver -kill %i
 WantedBy=multi-user.target
 ```
 
-7. This is how to enable the service automatically at startup
+2.2.2. This is how to enable the service automatically at startup
 ```
 sudo systemctl enable vncserver@1
 sudo systemctl start vncserver@1
 
 ```
-8. How to stop the service:
+2.2.3. How to stop the service:
 ```
 sudo systemctl stop vncserver@1
 ```
