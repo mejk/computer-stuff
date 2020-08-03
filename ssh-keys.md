@@ -26,10 +26,12 @@ All of our group's local computers use ssh keys, so you do need to set them up t
 
 -----
 
-## 1. On Linux 
+## 1. On Linux and WSL (Windows Subsystem for Linux)
 [](#lnx)
 
 The very first thing is to open a terminal. The commands below will be given on the terminal screen.
+
+Windows: The instructions below assume that WSL has been installed.
 
 ### 1.1 Generate ssh keys (skip to 1.2 if you have already done this)
 If not already in your home directory, go there by giving the command
