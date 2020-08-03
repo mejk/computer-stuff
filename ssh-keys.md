@@ -112,13 +112,13 @@ Try connecting and you will notice how seamlessly everything works.
 
 The procedure is the same as for Linux. As abobe, the very first thing is to open a terminal. The commands below will be given on the terminal screen.
 
-**2.1** As in step **1.1**, we generate the keys
+**2.1 Generate the keys.** As in step **1.1**, we generate the keys
 
 ```
 ssh-keygen -b 4096
 ```
 
-**2.2** As in step **1.2**, we generate the keys and copy them to the computer to which you want to connect to. In the snippet below, replace `remote_host` by the host name and `username` by your user name on the host computer:
+**2.2 Copy the keys to the remote host.** As in step **1.2**, we generate the keys and copy them to the computer to which you want to connect to. In the snippet below, replace `remote_host` by the host name and `username` by your user name on the host computer:
 ```
 ssh-copy-id username@remote_host
 ```
