@@ -2,6 +2,8 @@
 
 _Use at your own risk. Now guarantees of any kind, implied or explicit, are given._
 
+**Never share your private key with anyone**
+
 ---
 
 Last updated: Sat 11 Jul 11:40:45 EDT 2020
@@ -26,6 +28,8 @@ All of our group's local computers use ssh keys, so you do need to set them up t
 
 ## 1. On Linux 
 [](#lnx)
+
+The very first thing is to open a terminal. The commands below will be given on the terminal screen.
 
 ### 1.1 Generate ssh keys (skip to 1.2 if you have already done this)
 If not already in your home directory, go there by giving the command
@@ -97,11 +101,26 @@ Host hostname_2
 
 ### 1.5 Make connecting easier: ssh agent
 After setting up the config file, adding ssh agent makes connecting very convenient. Here is how you start the ssh agent:
+
 ```
 eval 'ssh-agent'
 ssh-add
 ```
 Try connecting and you will notice how seamlessly everything works.
 
+## 2. On OSX
 
+The procedure is the same as for Linux. As abobe, the very first thing is to open a terminal. The commands below will be given on the terminal screen.
 
+**2.1** As in step **1.1**, we generate the keys
+
+```
+ssh-keygen -b 4096
+```
+
+**2.2** As in step **1.2**, we generate the keys and copy them to the computer to which you want to connect to. In the snippet below, replace `remote_host` by the host name and `username` by your user name on the host computer:
+```
+ssh-copy-id username@remote_host
+```
+
+If there are problems or if you want to set up an `ssh agent`, see the steps **1.3-1.5**
