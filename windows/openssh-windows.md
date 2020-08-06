@@ -2,7 +2,7 @@
 
 **More**: 
  - [Installation of OpenSSH For Windows Server 2019 and Windows 10](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
- - []() 
+ - [Installing SFTP/SSH Server on Windows using OpenSSH](https://winscp.net/eng/docs/guide_windows_openssh_server) 
  
  Here are the steps to check:
  
