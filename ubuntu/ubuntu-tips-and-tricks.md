@@ -115,3 +115,19 @@ ls -lt
 ```
 If the messages are old (see the dates), just remove the files.
 
+### How to make a laptop rebootable (from a remote) with lid closed / How to ignore the lid switch
+
+- The answer below is from here: [Ubuntu goes suspended after login if lid is closed](https://askubuntu.com/questions/1083720/ubuntu-goes-suspended-after-login-if-lid-is-closed)
+- Tested on Ubuntu 20.04 LTS
+
+Edit the file (using sudo)
+```/etc/systemd/logind.conf```
+and then change the line
+```
+#HandleLidSwitch=suspend
+```
+to
+```
+HandleLidSwitch=ignore
+```
+Save and reboot. If you reboot from a remote you can see if it works.
