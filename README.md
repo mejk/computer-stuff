@@ -57,3 +57,5 @@ Lots of stuff below is based on these sources.
   - [ESL and WSL2 from OMG Ubuntu](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10)
   - GUI apps work great when you install [Vcssrv](https://sourceforge.net/projects/vcxsrv/) or [Xming](https://sourceforge.net/projects/xming/)
 
+## Mac OSX
+- [Fuzzy and/or jaggedy fonts on external screens](mac/blurry-fonts.md)
