@@ -117,4 +117,4 @@ Here is a list of some cross-platform software. Unless mentioned otherwise, Linu
   - [Dropbox](https://www.dropbox.com/). Has also Android and iOS clients.
   - [Owncloud](https://owncloud.org/). Has also Android and iOS clients.
     - This is probably the best solution but is more involved. 
-
+- [Syncthing - synchronize and share files between computers](https://syncthing.net/)    
