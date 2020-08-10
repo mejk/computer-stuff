@@ -118,3 +118,4 @@ Here is a list of some cross-platform software. Unless mentioned otherwise, Linu
   - [Owncloud](https://owncloud.org/). Has also Android and iOS clients.
     - This is probably the best solution but is more involved. 
 - [Syncthing - synchronize and share files between computers](https://syncthing.net/)    
+   - Syncthing is very handy, easy to set up + it's also free.
