@@ -27,9 +27,10 @@ Works also if you just want to wipe out Windows from your old computer and make 
 ## Notes on the specific systems used here:
 
 - The instructions below are based on installing Ubuntu Budgie 20.04 LTS and KDE Neon 18.04 on Dell XPS, Lenovo X1 Yoga and Alienware R8 with Nvidia 2070 Super graphics card. Here's how it worked on the different computers:
-  - Dell XPS 13: everything worked out of the box
-  - Lenovo X1 Yoga: everything worked out of the box including the stylus
-  - Alienware R8 with Nvidia 2070 Super: The discrete GPU create some problems are discussed below, but it worked out easily.
+  - Dell XPS 13 (KDE Neon 18.0 4LTS and Ubuntu Budgie 20.04 LTS): everything worked out of the box
+  - Lenovo X1 Yoga (Ubuntu Budgie 20.04 LTS): everything worked out of the box including the stylus
+  - Alienware R8 with Nvidia 2070 Super (Ubuntu Budgie 20.04 LTS) : The discrete GPU create some problems are discussed below, but it worked out easily.
+  - MSI GS65 with NVIDIA 1070 (KDE Neon 18.04 LTS and Ubuntu Budgie 20.04 LTS): With 20.04 LTS everything worked out, but with 18.04 LTS there were issues with the Wifi card.
 
 ## Start the computer
 
