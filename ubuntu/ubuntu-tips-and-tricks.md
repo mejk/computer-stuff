@@ -131,3 +131,7 @@ to
 HandleLidSwitch=ignore
 ```
 Save and reboot. If you reboot from a remote you can see if it works.
+
+### Add an SSD or HD and have it automounted
+
+- It's simple. Here are the instructions: [How To Automount File Systems on Linux](https://www.linuxbabe.com/desktop-linux/how-to-automount-file-systems-on-linux)
