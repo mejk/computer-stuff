@@ -59,6 +59,8 @@ Here is a list of some cross-platform software. Unless mentioned otherwise, Linu
     - Has LaTeX support
     - Since Inkscape creates scalable vector graphics, it great for creating conference posters
 - [Gimp](https://www.gimp.org/)
+  - Linux: Install via Software Center
+
 
 ### Music
 - [Spotify](https://www.spotify.com). Works also on Android and iOS.
@@ -76,7 +78,7 @@ Here is a list of some cross-platform software. Unless mentioned otherwise, Linu
     - Linux: Install via Software Center
 - [Handbrake](https://handbrake.fr/)
      - Linux: Install via Software Center
-- [Blender](https://www.blender.org/https://www.blender.org/)
+- [Blender](https://www.blender.org/)
     - Linux: Install via Software Center
 
 ### Email
