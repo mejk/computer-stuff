@@ -8,6 +8,7 @@ Works also if you just want to wipe out Windows from your old computer and make 
   - Lenovo Yoga X11
   - Dell XPS 13
   - Alienware R8 desktop with NVIDIA RTX 2070 Super
+  - MSI GS65 with NVIDIA GTX 1070
 -------------------------------
 
 ## Preparations
