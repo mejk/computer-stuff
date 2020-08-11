@@ -14,7 +14,7 @@ Works also if you just want to wipe out Windows from your old computer and make 
 ## Preparations
 
 - **Need:** 1 USB for creating a bootable USB for your Linux installation. If you want (can be done later), another USB for creating Windows installation media.
-- Get your favourite Linux distro and create a bootable USB. These instructions should work with any of the Ubuntu flavours, but here's the precise ones used in this case:
+- Get your favourite Linux distro and create a bootable USB. These instructions should work with any of the Ubuntu flavours, but here're the precise ones used in these cases (the computers listed above):
   - [Ubuntu Budgie 20.04 LTS](https://ubuntubudgie.org/downloads/)
   - [KDE Neon](https://neon.kde.org/download). Here, Ubuntu 18.04 LTS-based version was used. A new one based on 20.04 LTS should be available soon
   - Choose an image writer for creating a bootable USB. There are a lot of options but here Unetbootin was used.
