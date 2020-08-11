@@ -30,7 +30,7 @@ Works also if you just want to wipe out Windows from your old computer and make 
   - Dell XPS 13 (KDE Neon 18.0 4LTS and Ubuntu Budgie 20.04 LTS): everything worked out of the box
   - Lenovo X1 Yoga (Ubuntu Budgie 20.04 LTS): everything worked out of the box including the stylus
   - Alienware R8 with Nvidia 2070 Super (Ubuntu Budgie 20.04 LTS) : The discrete GPU create some problems are discussed below, but it worked out easily.
-  - MSI GS65 with NVIDIA 1070 (KDE Neon 18.04 LTS and Ubuntu Budgie 20.04 LTS): With 20.04 LTS everything worked out, but with 18.04 LTS there were issues with the Wifi card.
+  - MSI GS65 with NVIDIA 1070 (KDE Neon 18.04 LTS and Ubuntu Budgie 20.04 LTS): With 20.04 LTS everything worked out, but with 18.04 LTS there were issues with the Wifi card but this solved the problem: [18.04 MSI GS65 wifi hardware switch disabled after suspend](https://askubuntu.com/questions/1068054/18-04-msi-gs65-wifi-hardware-switch-disabled-after-suspend).
 
 ## Start the computer
 
