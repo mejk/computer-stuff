@@ -60,7 +60,7 @@ Windows does its usual set up routine. If you plan to wipe Windows 10 out after 
   - Notes:
     - 'Normal installation' is probably a good idea
     - It may be a good idea to select 'Download updates while installing' and 'Install third-party software for graphics and Wi-Fi hardware' from 'Other options'. 
-    - The critical step is the next one called  'Installation type'. It allows for a dual boot installation or to erase and format the the disk and install Linux. The latter wipes out whatever there is the drive. This is what will be done here. Instructions for dual boot are found here: [How to install Windows / Linux dual boot]. There is also an option 'Something else'. If you have specific needs and know what you are doing, then that is for you. 
+    - The critical step is the next one called  'Installation type'. It allows for a dual boot installation or to erase and format the the disk and install Linux. The latter wipes out whatever there is on the drive. This is what will be done here. Instructions for dual boot are found here: [How to install Windows / Linux dual boot]. There is also an option 'Something else'. If you have specific needs and know what you are doing, then that is for you. 
     
 **6. When the installation is done, it will ask you to reboot (=do it).**
 - If all went well, you are now in your newly installed system. 
