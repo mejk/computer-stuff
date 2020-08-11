@@ -19,7 +19,7 @@ Works also if you just want to wipe out Windows from your old computer and make 
   - [KDE Neon](https://neon.kde.org/download). Here, Ubuntu 18.04 LTS-based version was used. A new one based on 20.04 LTS should be available soon
   - Choose an image writer for creating a bootable USB. There are a lot of options but here Unetbootin was used.
     - [Unetbootin](https://unetbootin.github.io/). For Windows, Linux and Mac
-- In case you want to install Windows in a Virtual machine, get an image for Windows and create a bootable USB. 
+- In case you want to install Windows in a Virtual machine, get an image file for Windows and create a bootable USB. 
   - [Windows installation media](https://support.microsoft.com/en-ca/help/15088/windows-10-create-installation-media). This needs to be done on a windows computer. This is also the reason why we get the Windows license key as instructed below.  
 - **Extract the Windows licence key** so that you can use it for installing Windows in Virtual Machine (or in case you want to get back to Windows). Here's how:
   - [How to find your Windows licence key](windows-licence-key.md)
