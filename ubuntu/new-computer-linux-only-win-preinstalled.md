@@ -2,7 +2,7 @@
 
 Works also if you just want to wipe out Windows from your old computer and make it Ubuntu (Linux) only. 
 
-<tt>Updated: Wed 29 Jul 22:58:32</tt>
+<tt>Updated: Tue 11 Aug 11:58:32</tt>
 
 - Tested:
   - Lenovo Yoga X11
@@ -16,7 +16,7 @@ Works also if you just want to wipe out Windows from your old computer and make 
 - **Need:** 1 USB for creating a bootable USB for your Linux installation. If you want (can be done later), another USB for creating Windows installation media.
 - Get your favourite Linux distro and create a bootable USB. These instructions should work with any of the Ubuntu flavours, but here're the precise ones used in these cases (the computers listed above):
   - [Ubuntu Budgie 20.04 LTS](https://ubuntubudgie.org/downloads/)
-  - [KDE Neon](https://neon.kde.org/download). Here, Ubuntu 18.04 LTS-based version was used. A new one based on 20.04 LTS should be available soon
+  - [KDE Neon](https://neon.kde.org/download). Here, Ubuntu 18.04 LTS-based version was used. A new one based on 20.04 LTS was released just a few days ago
   - Choose an image writer for creating a bootable USB. There are a lot of options but here Unetbootin was used.
     - [Unetbootin](https://unetbootin.github.io/). For Windows, Linux and Mac
 - In case you want to install Windows in a Virtual machine, get an image file for Windows and create a bootable USB. 
@@ -27,7 +27,7 @@ Works also if you just want to wipe out Windows from your old computer and make 
 ## Notes on the specific systems used here:
 
 - The instructions below are based on installing Ubuntu Budgie 20.04 LTS and KDE Neon 18.04 on Dell XPS, Lenovo X1 Yoga and Alienware R8 with Nvidia 2070 Super graphics card. Here's how it worked on the different computers:
-  - Dell XPS 13 (KDE Neon 18.0 4LTS and Ubuntu Budgie 20.04 LTS): everything worked out of the box
+  - Dell XPS 13 (KDE Neon 18.04 LTS and Ubuntu Budgie 20.04 LTS): everything worked out of the box
   - Lenovo X1 Yoga (Ubuntu Budgie 20.04 LTS): everything worked out of the box including the stylus
   - Alienware R8 with Nvidia 2070 Super (Ubuntu Budgie 20.04 LTS) : The discrete GPU create some problems are discussed below, but it worked out easily.
   - MSI GS65 with NVIDIA 1070 (KDE Neon 18.04 LTS and Ubuntu Budgie 20.04 LTS): With 20.04 LTS everything worked out, but with 18.04 LTS there were issues with the Wifi card but this solved the problem: [18.04 MSI GS65 wifi hardware switch disabled after suspend](https://askubuntu.com/questions/1068054/18-04-msi-gs65-wifi-hardware-switch-disabled-after-suspend).
