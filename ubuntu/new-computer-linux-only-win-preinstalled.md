@@ -36,12 +36,12 @@ Works also if you just want to wipe out Windows from your old computer and make 
 
 Windows does its usual set up routine. If you plan to wipe Windows 10 out after getting the keys, just do the minimal setup to get in.
 
-1. Start Windows:
+**1. Start Windows:**
   - No need to run updates
   - Get the Windows 10 license key (see **Preparations** above)
   - Get the system details and possible service tags if applicable (might be good idea for warranty etc.) 
 
-2. Reboot and go into the Bios setup. Check/do the following:
+**2. Reboot and go into the Bios setup. Check/do the following:**
   - SATA operation: It is typically set as RAID on. Change to AHCI. 
     - You will get a warning message. 
   - Secure boot: Typically set as 'Enabled'. Change to 'disabled'
@@ -50,21 +50,20 @@ Windows does its usual set up routine. If you plan to wipe Windows 10 out after 
     - On Alienware R8 TPM had to be disabled.
   - Check that 'Enable USB boot support' is on on. Not all systems have this option. 
   - Save and exit
-3. Reboot.
+**3. Reboot.**
   - If you want to be sure that everything went ok, let the system to reboot to Windows. 
-4. If that worked, insert the installation USB and reboot.
+**4. If that worked, insert the installation USB and reboot.**
   - If the system boots to Windows, then keep the USB on and reboot and either
      - Enter Bios again and set the boot order to USB first or
      - Enter 'Startup options' and select the USB.
-5. You should now be running Linux from your USB. If everything looks and works well (and connects to Internet), you can click 'Install'. 
+**5. You should now be running Linux from your USB.** If everything looks and works well (and connects to Internet), you can click 'Install'. 
   - Notes:
     - 'Normal installation' is probably a good idea
     - It may be a good idea to select 'Download updates while installing' and 'Install third-party software for graphics and Wi-Fi hardware' from 'Other options'. 
     - The critical step is the next one called  'Installation type'. It allows for a dual boot installation or to erase and format the the disk and install Linux. The latter wipes out whatever there is the drive. This is what will be done here. Instructions for dual boot are found here: [How to install Windows / Linux dual boot]. There is also an option 'Something else'. If you have specific needs and know what you are doing, then that is for you. 
     
-6. When the installation is done, it will ask you to reboot (=do it).
-- If all went well, you are not in your new system. 
-  - No problems on Lenovo X1 Yoga, Dell XPS 13. 
+**6. When the installation is done, it will ask you to reboot (=do it).**
+- If all went well, you are now in your newly installed system. 
   
 If all that worked out, you are done and just need to install whatever software you want. 
  
