@@ -49,7 +49,7 @@ Important: Keep checking using
 ```
     manage-bde -status 
 ```
-to see until it is done.
+to see until it is done, status `Fully Decrypted`.
 
 5. Restart the PC.
 
