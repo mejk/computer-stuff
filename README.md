@@ -24,6 +24,7 @@ Lots of stuff below is based on these sources.
 - [Wipe out Windows and install Ubuntu only](ubuntu/new-computer-linux-only-win-preinstalled.md)
   - You can always install Windows in VirtualBox
 - [Install dual boot Windows 10 / Ubuntu 20.04 LTS](dual-boot-ubuntu-Windows10.md)
+- [Quick installation of software on Ubuntu 20.04 LTS](ubuntu/fast-software-installation.md)
 
 ## General cross-platform software: Linux, Windows & Mac
 
@@ -40,15 +41,15 @@ Lots of stuff below is based on these sources.
 
 - [Installation of CUDA and Nvidia drivers & TensorFlow (Ubuntu 20.04 LTS)](ubuntu/cuda-and-nvidia-drivers.md)
   - TensorFlow 2 with & without GPU support using Docker.
+- [Quick installation of software on Ubuntu 20.04 LTS](ubuntu/fast-software-installation.md)
 - [Word processors with GUI: WPS Office and LibreOffice](ubuntu/word-processors-with-gui.md)
   - WPS Office with the extra fonts installed (instructions provided) is an excellent MS Office replacement with very high degree of compatibility.
   - LibreOffice connects well with JabRef reference manager, supports LaTeX math (via a plugin) and has great support for scalable vector graphics.
 - [Ubuntu/Linux tips and tricks](ubuntu/ubuntu-tips-and-tricks.md)
+  - Mish-mash of a lot of stuff.
 
 - Java. How to check your current Java version? Like this: `java -version`. You may have/want different Java versions (JRE/Development Kit) on your computer.   Here's how to switch between them:
    - `sudo update-alternatives --config java`
-- [System tools and related](ubuntu/system-tools.md)
-  - git, package managers, application launchers...
 
 - Install [Jupyter Notebooks / JupyterLab](ubuntu/jupyter-notebooks.md)
 
