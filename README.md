@@ -18,6 +18,12 @@ Lots of stuff below is based on these sources.
 
 ---------------------
 
+## How to...
+
+- [Wipe out Windows and install Ubuntu only](ubuntu/new-computer-linux-only-win-preinstalled.md)
+  - You can always install Windows in VirtualBox
+- Dual boot Windows 10 / Ubuntu
+
 ## General cross-platform software: Linux, Windows & Mac
 
 - [Cross platform (Linux, Windows, Mac) software](cross-platform-software.md)
@@ -37,9 +43,7 @@ Lots of stuff below is based on these sources.
   - WPS Office with the extra fonts installed (instructions provided) is an excellent MS Office replacement with very high degree of compatibility.
   - LibreOffice connects well with JabRef reference manager, supports LaTeX math (via a plugin) and has great support for scalable vector graphics.
 - [Ubuntu/Linux tips and tricks](ubuntu/ubuntu-tips-and-tricks.md)
-- [Wipe out Windows and install Ubuntu only](ubuntu/new-computer-linux-only-win-preinstalled.md)
-  - You can always install Windows in VirtualBox
-- Dual boot Windows 10 / Ubuntu
+
 - Java. How to check your current Java version? Like this: `java -version`. You may have/want different Java versions (JRE/Development Kit) on your computer.   Here's how to switch between them:
    - `sudo update-alternatives --config java`
 - [System tools and related](ubuntu/system-tools.md)
