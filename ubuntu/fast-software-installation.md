@@ -1,10 +1,12 @@
 # For fast installation of software on Ubuntu 20.04 LTS
 
-This may be useful if you just installed Ubuntu 20.04 LTS. The software collection is based on our own needs (=includes compilers, data analysis, molecular simualtion related stuff, etc.)
+This may be useful if you just installed Ubuntu 20.04 LTS, no guarantees that this works on any other version. The software collection is based on our own needs (=includes compilers, data analysis, molecular simualtion related stuff, etc.). This has been tried and tested, but mileage may vary.
 
-1. There are some redundancies (but that's ok)
-2. If you follow this, on a computer that already has some of the software, check first if it is installed or/and needs to be updated (this concerns mostly the packages installed from git & VMD)
-3. The packages from git are installed in `/opt/git`. Create the directory and change its access rights (or choose another location) and create also directory `git` under `/opt`:
+**A few notes:**
+
+1. There are some redundancies (but that's ok, there's no harm in that)
+2. If you follow this using a computer that already has some of the software, check first if it is installed or/and needs to be updated (this concerns mostly the packages installed from git & VMD)
+3. The packages from git are installed in `/opt/git`. If you want to do the same, create the directory and change its access rights (or choose another location) and create also directory `git` under `/opt`:
    ```
    cd /opt
    sudo chown ${USER}:${USER} .  
@@ -12,6 +14,7 @@ This may be useful if you just installed Ubuntu 20.04 LTS. The software collecti
    ```
 
 ## Restricted repository & Ubuntu partner repositories:
+This is usually done automatically, but there are variations.
 ```
 sudo add-apt-repository restricted
 sudo apt update && sudo apt upgrade
@@ -19,7 +22,7 @@ sudo apt update && sudo apt upgrade
 
 - Enable also Ubuntu partner repositories manually from *Software and Updates*
 
-## Flatpak
+## Install Flatpak
 ``` 
 sudo apt install flatpak gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
