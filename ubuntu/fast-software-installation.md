@@ -63,7 +63,7 @@ python3-gpg npm
 ## Have NVIDIA card? Install CUDA 11.0 and NVIDIA Drivers
 If not, then skip this.
 
-- **Installed:** kompu (GTX1070M), curtis (GTX980M), imperiet (RTX2070)  
+- **Tested with:** GTX1070M, GTX980M, RTX2070  
 
 **NOTE:** This is for CUDA 11.0 only (files, checksums etc.)
 ```
@@ -139,7 +139,7 @@ add this also in `.profile` to make it permanent.
 
 ## Install Syncthing
 
-- **Installed:** kompu, curtis
+File synching software. 
 
 Copied from: [Debian/Ubuntu Packages](https://apt.syncthing.net/)
 ```
@@ -150,7 +150,6 @@ sudo apt-get update && sudo apt-get install syncthing
 
 ## Install FATSLiM for membrane analysis
 
-- **Installed:** kompu, curtis, imperiet
 
 This assumes installation in `/opt`. Change if necessary and if you install in `/opt` ensure that you have the correct access rights (it is typically onwed by `root` .
 
@@ -167,7 +166,6 @@ fatslim self-test
 
 ## Install MDAnalysis for trajectory analysis
 
-- **Installed:** kompu, curtis, imperiet
 
 **Problem:** test doesn't run, gives hundreds of error messages.
 
@@ -190,7 +188,6 @@ pytest --disable-pytest-warnings --pyargs MDAnalysisTests --numprocesses 4
 
 ## Install PyBILT for membrane analysis:
 
-- **Installed:** kompu, curtis
 
 ```
 cd /opt/git
@@ -204,7 +201,6 @@ pytest .
 
 ## Install MDTraj for trajectory analysis
 
-- **Installed:** kompu, curtis
 - Note: mdtraj not found, maybe needs a reboot.
 
 ```
@@ -215,7 +211,6 @@ pytest mdtraj -v
 ## Install ProDY
 Protein structural analysis.
 
-- **Installed:** kompu, curtis
 
 - [ProDy home](http://prody.csb.pitt.edu/)
 
@@ -238,7 +233,6 @@ Put this also in your pythonpath and `.profile`
 
 ## Install PyTIM for interface analysis:
 
-- **Installed:** kompu, curtis
 
 - [PyTIM](https://github.com/Marcello-Sega/pytim)
 ```
@@ -246,7 +240,6 @@ pip install --upgrade pytim
 ```
 
 ## Install Packmol
-- **Installed:** kompu, curtis
 
 - [Download](http://leandro.iqm.unicamp.br/packmol/versionhistory/)
 
@@ -271,7 +264,6 @@ pip install .
 
 ## Install DSSP:
 
-- **Installed:** kompu, curtis
 - [DSSP at Github](https://github.com/cmbi/dssp)
   - version 2.3.0 
   
@@ -290,13 +282,11 @@ sudo make install
 
 ## Install LOOS
 
-- **Not installed**
 - [LOOS](http://grossfieldlab.github.io/loos/)
 - [LOOS at Github](https://github.com/GrossfieldLab/loos)
 
 ## Install freud for trajectory analysis:
 
-- **Installed:** kompu
 - [freud](https://github.com/glotzerlab/freud)
 ```
 pip install --upgrade freud-analysis
@@ -304,7 +294,6 @@ pip install --upgrade freud-analysis
 
 ## Diffusion analysis
 
-- **Installed:** kompu, curtis
 - [Diffusion Analysis in MD Simulations](https://diffusion-analysis-md-simulations.readthedocs.io/en/latest/diffusion_analysis.html)
 - [Clone the git](https://github.com/tylerjereddy/diffusion_analysis_MD_simulations)
 - [At Zenodo](http://doi.org/10.5281/zenodo.11827)
@@ -317,7 +306,6 @@ pip install .
 ```
 
 ## Martinez2 & Vermouth
-- **Installed:** kompu, curtis 
 - [Home](https://github.com/marrink-lab/vermouth-martinize)
 
 ```
@@ -327,7 +315,6 @@ pip install git+https://github.com/marrink-lab/vermouth-martinize.git#vermouth
  
 ## PyDiffusion
 
-- **Installed:** kompu, curtis
 - [pydiffusion](https://github.com/bio-phys/pydiffusion)
 - [Example notebook](https://github.com/bio-phys/pydiffusion/blob/master/example/Analysis.ipynb)
 
@@ -345,7 +332,6 @@ pip install matplotlib==3.2.2
 
 ## APL@Voro
 
-- **Installed:** kompu, curtis
 - [APL@Voro](https://www.cellmicrocosmos.org/index.php/cm2-aplvoro)
 - [New repository](https://bitbucket.org/martin-kern/apl-voro/src/development/)
 
@@ -362,7 +348,6 @@ make && make install
 
 ## PyEMMA
 
-- **Installed:** kompu, curtis
 - [PyEMMA home](http://emma-project.org)
 
 Installation:
@@ -372,7 +357,6 @@ pip install pyemma
 
 ## Install VMD
 
-- **Installed:** kompu, curtis, imperiet
 
 Download the versions of VMD you want. Uncompress and move inside the directory. If you want to install the default with the executable called `vmd`, just jump below to configure. If you plan to install several versions, then edit the `configure` file and change the name of the executable and configure: 
 
@@ -384,7 +368,6 @@ sudo make install
 
 ## Install Gromacs 2020.x for MD simulations
 
-- **Installed:** kompu, curtis
 This assumes installation in `/opt`. Change if necessary and if you install in `/opt` ensure that you have the correct access rights (it is typically onwed by `root` .
 
 Get the installation script and instructions for the versions >= 2020 from here: []()
