@@ -23,7 +23,7 @@ Lots of stuff below is based on these sources.
 
 - [Wipe out Windows and install Ubuntu only](ubuntu/new-computer-linux-only-win-preinstalled.md)
   - You can always install Windows in VirtualBox
-- Install dual boot Windows 10 / Ubuntu
+- [Install dual boot Windows 10 / Ubuntu 20.04 LTS](dual-boot-ubuntu-Windows10.md)
 
 ## General cross-platform software: Linux, Windows & Mac
 
