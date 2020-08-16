@@ -50,6 +50,8 @@ Lots of stuff below is based on these sources.
 - [System tools and related](ubuntu/system-tools.md)
   - git, package managers, application launchers...
 
+- Install [Jupyter Notebooks / JupyterLab](ubuntu/jupyter-notebooks.md)
+
 ## Windows
 
 - [How to find your Windows licence key](windows-licence-key.md)
