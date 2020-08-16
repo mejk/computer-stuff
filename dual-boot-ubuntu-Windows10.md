@@ -61,7 +61,7 @@ Although the procedure is the same for installing dual boot on a new or old comp
  - This is how: [How to remove BitLocker](windows/bitlocker.md)
  - Important: Do this before moving to the next step. Otherwise the removal of secure boot becomes more complex.
 3. Reboot and enter `BIOS`. In there:
-  - Check that the strage (`SATA operation)` is in AHCI mode. If not, change to AHCI.
+  - Check that the storage (`SATA operation)` is in `AHCI` mode. If not, change to `AHCI`.
   - Disable secure boot 
   - Disable TPM  / Intel Platform Trust Technology
   - Save and reboot
