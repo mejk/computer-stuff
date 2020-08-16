@@ -358,26 +358,13 @@ pip install pyemma
 ## Install VMD
 
 
-Download the versions of VMD you want. Uncompress and move inside the directory. If you want to install the default with the executable called `vmd`, just jump below to configure. If you plan to install several versions, then edit the `configure` file and change the name of the executable and configure: 
+Download the versions of [VMD](https://www.ks.uiuc.edu/Research/vmd/) you want. Uncompress and move inside the directory. If you want to install the default with the executable called `vmd`, just jump below to configure. If you plan to install several versions, then edit the `configure` file and change the name of the executable and configure: 
 
 ```
 ./configure
 cd src
 sudo make install
 ```
-
-## Install Gromacs 2020.x for MD simulations
-
-This assumes installation in `/opt`. Change if necessary and if you install in `/opt` ensure that you have the correct access rights (it is typically onwed by `root` .
-
-Get the installation script and instructions for the versions >= 2020 from here: []()
-
-## Gromacs patched with PLUMED
-
-## MORE
-
-- Pymol
-- Avogadro
 
 ## Other software:
 
