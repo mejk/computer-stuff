@@ -1,5 +1,4 @@
 # How to remove bitlocker encryption from Windows 10
-   - Tested on Dell XPS 13
 
 ---------------------------------
 
@@ -53,10 +52,3 @@ to see until it is done, status `Fully Decrypted`.
 
 5. Restart the PC.
 
-
-
-6.  For creating a dual boot computer: If you have a computer that has been used for some time, run defragging. It may be that Window's own defraggler doesn't do such a great job (if you want more space for your dual boot partition). In some cases these have worked better:
-
-    - Defraggler
-    - Auslogics Disk Defrag
-    - However, the most efficient solution has been to reinstall Windows now that BitLocker has been removed, then partition the SSD/HD, and then install Linux.
