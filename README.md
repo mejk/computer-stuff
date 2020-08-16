@@ -1,8 +1,9 @@
 # Random computer stuff
 
 - Random notes on various computer issues, installation etc.  
-- USE AT YOUR OWN RISK!
 - The installations described on the pages have been tested but mileage may vary.
+
+- **USE AT YOUR OWN RISK!** *If you end up wiping out your data or bricking your computer, you have been warned.*
 
 ----------------------
 
