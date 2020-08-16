@@ -30,12 +30,3 @@ Some systems come with application launcers, other don't. [Ulauncer](https://ula
 
 ### Random tips and tricks
 
-#### Copying full directories with the `dot` files preserve
-
-One way to accomplish that is to use `.` after the source directory, that is,
-```
-cp -p -r /mysrcdir/. /targetdir
-```
-The flags:
- - `-p`: preserves info about date (timestamps) and ownership
- - `-r`: copy recursively
