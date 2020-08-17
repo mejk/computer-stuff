@@ -14,11 +14,15 @@ The command `ifconfig` has been deprecated some time ago (it can be installed, o
 ```
 ip addr show
 ```
+or
+```
+ip a
+```
 Not exactly the same but this can show it too (+other things. ARP = Address Resolution Protocol. Shows the IPv4 network negighbourhood.
 ```
 arp -a
 ```
-
+On a Mac `ifconfig` works. On Windows, open command window and type `ipconfig /all`.
 ### How many processors/cores do I have
 
 ```
