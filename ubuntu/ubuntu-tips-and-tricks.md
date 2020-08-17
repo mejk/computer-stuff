@@ -18,7 +18,7 @@ or
 ```
 ip a
 ```
-Not exactly the same but this can show it too (+other things. ARP = Address Resolution Protocol. Shows the IPv4 network negighbourhood.
+Not exactly the same but this can show it too (+other things. ARP = Address Resolution Protocol). Shows the IPv4 network negighbourhood.
 ```
 arp -a
 ```
