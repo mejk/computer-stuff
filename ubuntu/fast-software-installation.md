@@ -56,7 +56,7 @@ iamerican-insane ibritish-insane auctex tigervnc-viewer tigervnc-xorg-extension 
 remmina  python3-pip python3-dev python3-dev python3-numpy cython python3-pytest libcairo2-dev \
 python3-venv python3-wheel python3-dev libgirepository1.0-dev libbz2-dev libreadline-dev \
 libssl-dev zlib1g-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libcairo2-dev \
-libgirepository1.0-dev pkg-config gir1.2-gtk-3.0 qt5-default gitk libboost-all-dev libglfw3 libglfw3-dev \\
+libgirepository1.0-dev pkg-config gir1.2-gtk-3.0 qt5-default gitk libboost-all-dev libglfw3 libglfw3-dev \
 python3-gpg npm
 
 ```
