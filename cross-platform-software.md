@@ -17,6 +17,13 @@ Here is a list of some cross-platform software. Unless mentioned otherwise, Linu
     - Here's how to do it: [font installation](ubuntu/word-processors-with-gui.md).
   - WPS Office has really excellent MS Word compatibility even with complex MS Word documents and Powerpoint. WPS Office (with the installation of MS fonts and the symbol fonts; instructions below) has worked perfectly for writing manuscripts without any compatibility issues.
 
+### PDF readers
+
+**PDFs with forms:** Filling forms can be a pain without Adobe's reader and there is not one for Linux. While some forms can be filled using the common Linux PDF viewers like Okular and evince, Foxit is a cross platform one that works well. There are, however, forms that are tricker (Adobe's LiveCycle Dynamic XFA forms) that cannot be filled with any of the above. There is one solution (both free and commericial cross-platform versions are available):
+
+- [Master PDF](https://code-industry.net/).
+  - Can fill in even LiveCycle Dynamic XFA forms on Linux!
+
 ### Reference manager
 - [Jabref](https://www.jabref.org/)
   - Has BibTeX and BibLaTeX support
