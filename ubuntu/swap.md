@@ -26,7 +26,7 @@ cat /sys/kernel/mm/transparent_hugepage/enabled
 ```
 It should be set to always.
 
-4. The fox: Set swapiness to zero
+4. The fix: Set swapiness to zero
 ```
 sudo echo vm.swappiness=0 | sudo tee -a /etc/sysctl.conf
 ```
