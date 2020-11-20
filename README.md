@@ -53,6 +53,8 @@ Lots of stuff below is based on these sources.
 
 - Install [Jupyter Notebooks / JupyterLab](ubuntu/jupyter-notebooks.md)
 
+- Fix the problem [kswapd0 takes 100% of CPU](ubuntu/swap.md)
+
 ## Windows
 
 - [How to find your Windows licence key](windows-licence-key.md)
