@@ -17,7 +17,7 @@ ssh -L 5901:localhost:5901 -C -l username_on_remote_computer your_remote_compute
 ```
 For example, assume that we have user `foo` and the remote computer is called `comp1.remote.net`, the the above becomes
 ```
-ssh -L 5901:localhost:5901 -C -l foo `comp1.remote.net`
+ssh -L 5901:localhost:5901 -C -l foo comp1.remote.net
 ```
 Here's what the above means:
 
