@@ -64,7 +64,8 @@ Lots of stuff below is based on these sources.
 - WSL (Ubuntu shell) and GUI software
   - NOTE: WSL and WSL2 are different. WSL will work easily on pretty much any Windows 10 system, WSL2 brings in a lot of great things but at this time (summer 2020) it is not for everyone.
   - [WSL and WSL2 from Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-  - [ESL and WSL2 from OMG Ubuntu](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10)
+  - [WSL and WSL2 from OMG Ubuntu](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10)
+  - Check which version of WSL you have: Open Powershell and type `wslconfig /l`
   - GUI apps work great when you install [Vcssrv](https://sourceforge.net/projects/vcxsrv/) or [Xming](https://sourceforge.net/projects/xming/)
   - [OpenSSH in Windows 10](windows/openssh-windows.md)
 
