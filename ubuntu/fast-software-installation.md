@@ -121,23 +121,23 @@ make
 
 Ensure that python pip is ok:
 ```
-sudo -H pip3 install --upgrade pip
+sudo -H pip3 install --upgrade --user pip
 ```
 and then install
 ```
-pip install --upgrade pytest virtualenv virtualenvwrapper nose
-pip install --upgrade numpy python-dateutil setuptools Cycler kiwisolver pyparsing pycairo
-pip install --upgrade setuptools pyGObject
-pip install --upgrade pillow matplotlib
+pip install --upgrade --user pytest virtualenv virtualenvwrapper nose
+pip install --upgrade --user numpy python-dateutil setuptools Cycler kiwisolver pyparsing pycairo
+pip install --upgrade --user setuptools pyGObject
+pip install --upgrade --user pillow matplotlib
 ```
 
 ## Install Jupyter Notebook, Jupyter Lab and Voila + github goodies
 ```
-pip install --upgrade notebook
-pip install --upgrade jupyterlab
-pip install --upgrade voila
-pip install jupyterlab_github
-pip install --upgrade jupyterlab-git
+pip install --user notebook
+pip install --user jupyterlab
+pip install --user voila
+pip install --user jupyterlab_github
+pip install --user jupyterlab-git
 ```
 
 Jupyter puts stuff in `/home.local/bin`, need to add that in `PATH`:
@@ -190,7 +190,7 @@ pip install matplotlib==3.2.2
 Now we can install MDAnalysis and run the test:
 
 ```
-pip install --upgrade MDAnalysis[analysis] MDAnalysisTests MDAnalysisData pytest-xdist
+pip install --upgrade --user MDAnalysis[analysis] MDAnalysisTests MDAnalysisData pytest-xdist
 pytest --disable-pytest-warnings --pyargs MDAnalysisTests --numprocesses 4
 ```
 
@@ -204,7 +204,7 @@ pytest --disable-pytest-warnings --pyargs MDAnalysisTests --numprocesses 4
 cd /opt/git
 git clone https://github.com/LoLab-VU/PyBILT.git
 pip install .
-pip install scipy seaborn future
+pip install --user scipy seaborn future
 cd tests
 pytest .
 ```
@@ -215,7 +215,7 @@ pytest .
 - Note: mdtraj not found, maybe needs a reboot.
 
 ```
-pip install --upgrade mdtraj
+pip install --upgrade --user mdtraj
 pytest mdtraj -v 
 ```
 
@@ -247,7 +247,7 @@ Put this also in your pythonpath and `.profile`
 
 - [PyTIM](https://github.com/Marcello-Sega/pytim)
 ```
-pip install --upgrade pytim
+pip install --upgrade --user pytim
 ```
 
 ## Install Packmol
@@ -300,7 +300,7 @@ sudo make install
 
 - [freud](https://github.com/glotzerlab/freud)
 ```
-pip install --upgrade freud-analysis
+pip install --upgrade --user freud-analysis
 ```
 
 ## Diffusion analysis
@@ -320,7 +320,7 @@ pip install .
 - [Home](https://github.com/marrink-lab/vermouth-martinize)
 
 ```
-pip install vermouth
+pip install --user vermouth
 pip install git+https://github.com/marrink-lab/vermouth-martinize.git#vermouth
 ```
  
@@ -403,7 +403,7 @@ sudo fc-cache -vfs
 
 Second, [download WPS](https://www.wps.com/download). Assuming it was downloaded to `Downloads`
 ```
-cd $USER/Downloads
+cd $HOME/Downloads
 sudo dpkg -i wps-offic-replace-this.deb
 ```
 
