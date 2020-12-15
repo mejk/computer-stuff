@@ -67,7 +67,7 @@ python3-gpg npm
 ## If you want XFCE4 (if you don't know, then you don't)
 
 ```
-xfce4
+sudo apt install xfce4
 
 ```
 
