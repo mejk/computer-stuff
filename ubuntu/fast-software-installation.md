@@ -55,7 +55,7 @@ python-opengl ipython3  libpng-tools tachyon doxygen equalx bibutils zlibc mathg
 libfftw3-dev sphinx-common cmake-curses-gui gcc-opt hwloc cpuinfo libhwloc-common libhwloc-dev libconfig++-dev \
 freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev build-essential \
 gcc-7 g++-7 gcc-8 g++-8 typecatcher fonts-liberation fonts-liberation2 texlive-full emacs emacs-goodies-el ispell \
-iamerican-insane ibritish-insane auctex tigervnc-viewer tigervnc-xorg-extension tigervnc-standalone-server xfce4 \
+iamerican-insane ibritish-insane auctex tigervnc-viewer tigervnc-xorg-extension tigervnc-standalone-server \
 remmina  python3-pip python3-dev python3-dev python3-numpy cython python3-pytest libcairo2-dev \
 python3-venv python3-wheel python3-dev libgirepository1.0-dev libbz2-dev libreadline-dev \
 libssl-dev zlib1g-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libcairo2-dev \
@@ -63,6 +63,14 @@ libgirepository1.0-dev pkg-config gir1.2-gtk-3.0 qt5-default gitk libboost-all-d
 python3-gpg npm
 
 ```
+
+## If you want XFCE4 (if you don't know, then you don't)
+
+```
+xfce4
+
+```
+
 ## Have NVIDIA card? Install CUDA 11.0 and NVIDIA Drivers
 If not, then skip this.
 
