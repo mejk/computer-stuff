@@ -23,11 +23,14 @@ sudo apt update && sudo apt upgrade
 - Enable also Ubuntu partner repositories manually from *Software and Updates*
 
 ## Install Flatpak
+On Gnome-based (such as Budgie and basic Ubuntu):
 ``` 
 sudo apt install flatpak gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 and reboot.
+
+On KDE Neon Flatpak is installed automatically.
 
 ## Packages that need interaction because of licenses or some other reasons:
 ```
