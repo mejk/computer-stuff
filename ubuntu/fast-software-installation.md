@@ -178,20 +178,28 @@ fatslim self-test
 ## Install MDAnalysis for trajectory analysis
 
 
-**Problem:** test doesn't run, gives hundreds of error messages.
+**Problem (Oct. 2020):** Test doesn't run, gives hundreds of error messages. This appears to be a problem with Matplotlib. 
 
-**Solution:** [](). MDAnalysis version 1.0.0 is not compatible with the latest Matplotlib (3.3). One must use an earlier version. This will be different for newever versions but for now, let's downgrade matplotlib:
+**Solution:** [](). MDAnalysis version 1.0.0 is not compatible with the latest Matplotlib (3.3). One must use an earlier version. There are (at least) two options:  The not-so-good one is to downgrade matplotlib with the following commands:
 
 ```
 pip uninstall matplotlib
 pip install matplotlib==3.2.2
 ```
 
-Now we can install MDAnalysis and run the test:
+The *MUCH BETTER* solution is to use python virtual environment. Go to the location where you want to create your virtual enviroment. The create it and install MDanalysis using the following commands (here, the name of the virtual environment is simply MDA, change that if you prefer some other name):
 
 ```
-pip install --upgrade --user MDAnalysis[analysis] MDAnalysisTests MDAnalysisData pytest-xdist
-pytest --disable-pytest-warnings --pyargs MDAnalysisTests --numprocesses 4
+python3 -m venv MDA
+cd MDA
+pip install matplotlib==3.2.2
+```
+
+Now that the depedency problem is solved, wow we can install MDAnalysis and run the tests:
+
+```
+pip install --upgrade MDAnalysis[analysis] MDAnalysisTests MDAnalysisData pytest-xdist
+python3 -m pytest --disable-pytest-warnings --pyargs MDAnalysisTests --numprocesses 4
 ```
 
 **NOTE:** With version 1.0.0 there are files and directories missing in the test directory. Hopefully this will be fixed in the future. I found those files in the development version and put them in the proper directory and the tests ran fine. Without doing that, there were 35 errors and 4 fails. 
