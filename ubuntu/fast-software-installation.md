@@ -212,6 +212,7 @@ python3 -m pytest --disable-pytest-warnings --pyargs MDAnalysisTests
 **NOTE:** With version 1.0.0 there are files and directories missing in the test directory. Hopefully this will be fixed in the future. I found those files in the development version and put them in the proper directory and the tests ran fine. Without doing that, there were 35 errors and 4 fails. The two files that were missing:
 - `MDAnalysisTests/data/gromacs_ala10.top`
 - `MDAnalysisTests/data/fhiaims.in`
+- Directory `gromos54a7_edited.ff` and all its contents in `MDAnalysisTests/data/`
 Here's where they can be found: [testsuite/MDAnalysisTests/data](https://github.com/MDAnalysis/mdanalysis/tree/develop/testsuite/MDAnalysisTests/data)
 
 
