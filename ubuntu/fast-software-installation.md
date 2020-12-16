@@ -119,6 +119,8 @@ make
 
 ## Install python stuff with pip
 
+**Note:** Lot of stuff below is for the particular purpose of analyzing molecular simulation data or such. Install only if that's what you want. It is also highly advisable to use python *virtual environments*, do that at your disgression. That is not discussed explicitly except for the case of MDAnalysis.
+
 Ensure that python pip is ok:
 ```
 sudo -H pip3 install --upgrade --user pip
@@ -177,32 +179,40 @@ fatslim self-test
 
 ## Install MDAnalysis for trajectory analysis
 
+MDAnalysis is a fantastic package for trajectory analysis, highly recommended. 
+
+- Always check the latest from the [MDAnalysis web site](https://userguide.mdanalysis.org).
 
 **Problem (Oct. 2020):** Test doesn't run, gives hundreds of error messages. This appears to be a problem with Matplotlib. 
 
-**Solution:** [](). MDAnalysis version 1.0.0 is not compatible with the latest Matplotlib (3.3). One must use an earlier version. There are (at least) two options:  The not-so-good one is to downgrade matplotlib with the following commands:
+**Solution:** MDAnalysis version 1.0.0 is not compatible with the latest Matplotlib (3.3). One must use an earlier version. There are (at least) two options:  *The not-so-good one* is to downgrade matplotlib with the following commands:
 
 ```
 pip uninstall matplotlib
 pip install matplotlib==3.2.2
 ```
 
-The *MUCH BETTER* solution is to use python virtual environment. Go to the location where you want to create your virtual enviroment. The create it and install MDanalysis using the following commands (here, the name of the virtual environment is simply MDA, change that if you prefer some other name):
+The *MUCH BETTER* solution is to use python virtual environment. Go to the location where you want to create your virtual enviroment. Then create it, activate it, install matplotlib version 3.2.2 and move on to install MDanalysis using the following commands (here, the name of the virtual environment is simply MDA, change that if you prefer some other name):
 
 ```
 python3 -m venv MDA
 cd MDA
+source ./bin/activate
 pip install matplotlib==3.2.2
 ```
 
-Now that the depedency problem is solved, wow we can install MDAnalysis and run the tests:
+Now that the depedency problem is solved, we can install MDAnalysis (the second line also installs some Amber-related goodies) and run the tests - MUST always be done and none of the tests should fail or give an error!
 
 ```
 pip install --upgrade MDAnalysis[analysis] MDAnalysisTests MDAnalysisData pytest-xdist
-python3 -m pytest --disable-pytest-warnings --pyargs MDAnalysisTests --numprocesses 4
+pip install --upgrade MDAnalysis[analysis,AMBER]
+python3 -m pytest --disable-pytest-warnings --pyargs MDAnalysisTests
 ```
 
-**NOTE:** With version 1.0.0 there are files and directories missing in the test directory. Hopefully this will be fixed in the future. I found those files in the development version and put them in the proper directory and the tests ran fine. Without doing that, there were 35 errors and 4 fails. 
+**NOTE:** With version 1.0.0 there are files and directories missing in the test directory. Hopefully this will be fixed in the future. I found those files in the development version and put them in the proper directory and the tests ran fine. Without doing that, there were 35 errors and 4 fails. The two files that were missing:
+- `MDAnalysisTests/data/gromacs_ala10.top`
+- `MDAnalysisTests/data/fhiaims.in`
+Here's where they can be found: [testsuite/MDAnalysisTests/data](https://github.com/MDAnalysis/mdanalysis/tree/develop/testsuite/MDAnalysisTests/data)
 
 
 ## Install PyBILT for membrane analysis:
@@ -370,6 +380,9 @@ make && make install
 - [PyEMMA home](http://emma-project.org)
 
 Installation:
+
+It may be a good idea to create a *virtual environment* although there doesn't seem to be any conflicts. 
+
 ```
 pip install pyemma
 ```
