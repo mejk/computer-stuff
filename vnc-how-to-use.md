@@ -1,6 +1,6 @@
 # VNC client and server basic use
 
-<tt>Updated: Sat 1 Aug 09:57:01</tt>
+<tt>Updated: Dec 16, 2020, 09:57:01</tt>
 
 -----------------------------
 
@@ -45,7 +45,7 @@ Now you should be logged in using the above tunnelling method. Now it is time to
      vncserver -kill :1
      ```
   ## 1.3 On the remote: Create `xstartup` file in `~/.vnc`
-   If you went through the server installation instructions, you do, but in case not (server was installed for you), this is what you should do (the script assumes that XFCE4 has been installed): A startup script is needed for the remote desktop configuration. We need to create file `~/.vnc/xstartup`. Use your favourite (ASCII) editor (I am using emacs) and ensure that it is executable (otherwise it won't work):
+   If you went through the server installation instructions, you already have this and nothing needs to be done. In case you followed some other instructions,  (for example if the server was installed for you), this is what you should do (the script assumes that XFCE4 has been installed): A startup script is needed for the remote desktop configuration. We need to create file `~/.vnc/xstartup`. Use your favourite (ASCII) editor (I am using emacs) and ensure that it is executable (otherwise it won't work):
 
  ```
   emacs ~/.vnc/xstartup
