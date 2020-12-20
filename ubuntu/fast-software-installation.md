@@ -92,9 +92,27 @@ sudo dpkg -i cuda-repo-ubuntu2004-11-0-local_11.0.2-450.51.05-1_amd64.deb
 sudo apt-key add /var/cuda-repo-ubuntu2004-11-0-local/7fa2af80.pub
 sudo apt-get update
 sudo apt-get -y install cuda
+
 ```
+
 ```
 export PATH=/usr/local/cuda-11.0/bin${PATH:+:${PATH}}
+```
+you must put this also in your `.profile`.
+
+
+The following is for CUDA 11.2 only:
+```
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+wget https://developer.download.nvidia.com/compute/cuda/11.2.0/local_installers/cuda-repo-ubuntu2004-11-2-local_11.2.0-460.27.04-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu2004-11-2-local_11.2.0-460.27.04-1_amd64.deb
+sudo apt-key add /var/cuda-repo-ubuntu2004-11-2-local/7fa2af80.pub
+sudo apt-get updatesudo apt-get -y install cuda
+```
+
+```
+export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
 ```
 you must put this also in your `.profile`.
 
