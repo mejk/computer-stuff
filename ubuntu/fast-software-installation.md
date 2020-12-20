@@ -119,15 +119,21 @@ you must put this also in your `.profile`.
 
 **REBOOT.**
 
+**CHECK THAT DRIVER IS INSTALLED:**
+Can be done with the commands
 ```
-The following may give troubke but it is not critical:
+cat /proc/driver/nvidia/version
+nvidia-smi
+```
 
+You may also want to run some testes. The following may give trouble but it is not critical:
+```
 /usr/bin/nvidia-persistenced --verbose
 ```
 ```
 cat /proc/driver/nvidia/version
 ```
-These tests should pass:
+These tests should pass (these are for CUDA 11.0, needs to be updated for 11.2):
 ```
 cuda-install-samples-11.0.sh ~/Downloads/CUDA
 cd ~/Downloads/CUDA/NVIDIA_CUDA-11.0_Samples
