@@ -55,6 +55,20 @@ Lots of stuff below is based on these sources.
 
 - Fix the problem [kswapd0 takes 100% of CPU](ubuntu/swap.md)
 
+- Mapping the tablet on one screen only in dual/multiple screen setup. The procedure below is from here : [Ubuntu Linux - Map Wacom to one screen when using multiple screens](https://feldspaten.org/2017/05/06/ubuntu-linux-map-wacom-to-one-screen-when-using-multiple-screens/):
+  Get primary display (or any other using xrandr):
+  ```
+  xrandr | grep 'primary'
+  ```
+  Get the stylus id:
+  ```
+  xinput | grep -i Wacom
+  ```
+  Do the mapping - for XY substitute the device id number from above (DP-1 was the main screen):
+  ```
+  xinput map-to-output XY DP-1
+  ```
+
 ## Windows
 
 - [How to find your Windows licence key](windows-licence-key.md)
