@@ -68,6 +68,19 @@ Lots of stuff below is based on these sources.
   ```
   xinput map-to-output XY DP-1
   ```
+## Dual boot problems
+
+It may happen (well... happened to me once) that after a Bios update the system boots directly to Windows and it appears that Grub has been lost altogether. In my case, that's what happened. What helped was the advice from [this link](https://www.reddit.com/r/kde/comments/auctv3/kde_neon_no_boot_manager/). In brief: 
+- Boot from live USB.
+- Check if `boot-repair` is already part of the live USB (check from the Program Menu). If not, then
+- Open terminal and type 
+```
+sudo apt-add-repository ppa:yannubuntu/boot-repair
+sudo apt-get update
+sudo apt-get install -y boot-repair
+```
+- Then find `boot-repair` from the Program Menu and run it. I used the recommended process.
+- This fixed it on Lenovo C940.
 
 ## Windows
 
