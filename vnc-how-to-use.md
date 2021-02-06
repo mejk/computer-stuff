@@ -143,6 +143,15 @@ This shows you, upon login, if there is a vncserver running.
 - Install TigerVNC as in **2.1 Case 1**. 
 - - Step **1.6** stopping the `vncserver` is also the same as above.
 
-## 2. OSX client, Linux remote 
+## Windows host, Linux client
+
+- Windows uses the RDP protocol. One just has to open Remote Desktop in the settings (not available for the Windows Home Edition).
+  - Optional (and often set by default): In font settings select Clear fonts
+- On the Linux side, the client needs to be able to handle the RDP protocol. There are a few options, but `Remmina` works great. These are the setting taht worked for me:
+   - Main Window -> Basic -> Resolution -> Use client resolution
+   - Main Window -> Basic -> Colour depth -> True colour (24pp)
+   - Advanced -> Quality -> Good (or higher, test it)
+
+## 4. OSX client, Linux remote 
 
 Go to [TigerVNC Releases](https://github.com/TigerVNC/tigervnc/releases) and get the binary for the latest version. The binary inlcues the TigerVNC client. To be able to connect to a Linux host. Simply install it and as with both Linux and Windows, create an ssh tunnel and start the TigerVNC client.  
