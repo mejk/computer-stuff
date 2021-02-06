@@ -143,7 +143,7 @@ This shows you, upon login, if there is a vncserver running.
 - Install TigerVNC as in **2.1 Case 1**. 
 - - Step **1.6** stopping the `vncserver` is also the same as above.
 
-## Windows host, Linux client
+## 3. Windows host, Linux client
 
 - Windows uses the RDP protocol. One just has to open Remote Desktop in the settings (not available for the Windows Home Edition).
   - Optional (and often set by default): In font settings select Clear fonts
