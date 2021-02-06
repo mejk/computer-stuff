@@ -64,7 +64,7 @@ Lots of stuff below is based on these sources.
   ```
   xinput | grep -i Wacom
   ```
-  Do the mapping - for XY substitute the device id number from above (DP-1 was the main screen):
+  Do the mapping - for XY substitute the device id number from above (DP-1 was the main screen, replace with yours):
   ```
   xinput map-to-output XY DP-1
   ```
