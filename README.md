@@ -68,6 +68,16 @@ Lots of stuff below is based on these sources.
   ```
   xinput map-to-output XY DP-1
   ```
+  
+### xrdp fails on 20.04
+This worked: comment out the two last lines in `/etc/xrdp/startwm/sh` and add one
+```
+# test...
+# exec..
+startxfce4
+```
+
+
 ## Dual boot problems
 
 It may happen (well... happened to me once) that after a Bios update the system boots directly to Windows and it appears that Grub has been lost altogether. In my case, that's what happened. What helped was the advice from [this link](https://www.reddit.com/r/kde/comments/auctv3/kde_neon_no_boot_manager/). In brief: 
