@@ -217,7 +217,7 @@ pip uninstall matplotlib
 pip install matplotlib==3.2.2
 ```
 
-The *MUCH BETTER* solution is to use python virtual environment. Go to the location where you want to create your virtual enviroment. Then create it, activate it, install matplotlib version 3.2.2 and move on to install MDanalysis using the following commands (here, the name of the virtual environment is simply MDA, change that if you prefer some other name):
+**MUCH BETTER* solution:** Use python virtual environment. Go to the location where you want to create your virtual enviroment. Then create it, activate it, install matplotlib version 3.2.2 and move on to install MDanalysis using the following commands (here, the name of the virtual environment is simply MDA, change that if you prefer some other name):
 
 ```
 python3 -m venv MDA
@@ -231,6 +231,9 @@ Now that the depedency problem is solved, we can install MDAnalysis (the second 
 ```
 pip install --upgrade MDAnalysis[analysis] MDAnalysisTests MDAnalysisData pytest-xdist
 pip install --upgrade MDAnalysis[analysis,AMBER]
+```
+Run the tests. All tests should be passed:
+```
 python3 -m pytest --disable-pytest-warnings --pyargs MDAnalysisTests
 ```
 
