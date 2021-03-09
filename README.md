@@ -69,6 +69,15 @@ Lots of stuff below is based on these sources.
   xinput map-to-output XY DP-1
   ```
   
+### Clear cache and swap
+
+Execute the following as root:
+```
+sync; echo 3 > /proc/sys/vm/drop_caches 
+```
+- more: [How to Clear RAM Memory Cache, Buffer and Swap Space on Linux](https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/)
+
+  
 ### xrdp fails on 20.04
 This worked: comment out the two last lines in `/etc/xrdp/startwm/sh` and add one
 ```
