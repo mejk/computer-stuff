@@ -7,7 +7,7 @@
 
 ----------------------
 
-## Before we start: Here are some sites for Linux-related news etc:
+## Here are some sites for Linux-related news etc:
 Lots of stuff below is based on these sources. 
 
 - [It's FOSS](https://itsfoss.com)
