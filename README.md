@@ -68,7 +68,21 @@ Lots of stuff below is based on these sources.
   ```
   xinput map-to-output XY DP-1
   ```
-  
+### My external HD is not visible
+
+Check that the system sees it using 
+```
+lsblk
+```
+If the disk is found (usually `/sda`, `/sdb`, `/sdc` or such depending on your system). Assume that it is the dish `/sdc` and in there `/sdc2`, it can be mounted (say, to `/mnt`) using
+```
+sudo mount /dev/sdc1 /mnt
+```
+
+
+
+
+
 ### Clear cache and swap
 
 Execute the following as root:
