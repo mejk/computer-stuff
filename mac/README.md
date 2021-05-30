@@ -7,3 +7,13 @@
   - Command (⌘)-S: single user mode
   - T target mode
   - Note: Most of the internet upgrade and recovery options require ~35 GB of free space.
+
+## How to disable the built-in keyboard on a MacBook
+
+```
+sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext
+```
+renable
+```
+sudo kextload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext
+```
