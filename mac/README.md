@@ -10,6 +10,7 @@
 
 ## How to disable the built-in keyboard on a MacBook
 
+Update: While the below work on older Macs, the commands seem not to work when usingh Big Sur.
 ```
 sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext
 ```
