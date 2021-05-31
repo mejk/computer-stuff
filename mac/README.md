@@ -1,3 +1,9 @@
+## How to read from and write to external drives that are formatted with Windoes (NTFS / FAT)
+
+Macs can read Windows formatted drives but cannot write to them without extra software. There are several options but macFuse is free and works great
+
+- Install [mac Fuse](https://osxfuse.github.io/)
+
 ## When things have gone wrong and you need to recover your Mac (happens far too often)
 - [List of Mac startup key combinations](https://support.apple.com/en-us/HT201255). Some of the most important ones are:
   - Command (⌘)-R: Recovery mode
