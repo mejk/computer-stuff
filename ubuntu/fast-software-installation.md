@@ -76,6 +76,7 @@ If not, then skip this.
 
 - **Tested with:** GTX1070M, GTX980M, RTX2070  
 
+<!-- 
 **NOTE:** This is for CUDA 11.0 only (files, checksums etc.)
 ```
 cd ~/Downloads
@@ -100,8 +101,13 @@ export PATH=/usr/local/cuda-11.0/bin${PATH:+:${PATH}}
 ```
 you must put this also in your `.profile`.
 
+-->
 
-The following is for CUDA 11.2 only:
+
+**CUDA 11.2:**
+
+**Note:** The long list of installs above includes the dependencies
+
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
 sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
