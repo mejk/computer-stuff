@@ -132,6 +132,8 @@ cat /proc/driver/nvidia/version
 nvidia-smi
 ```
 
+<!--
+
 You may also want to run some testes. The following may give trouble but it is not critical:
 ```
 /usr/bin/nvidia-persistenced --verbose
@@ -147,6 +149,8 @@ make
 ./bin/x86_64/linux/release/deviceQuery
 ./bin/x86_64/linux/release/bandwidthTest
 ```
+
+-->
 
 ## Install python stuff with pip
 
