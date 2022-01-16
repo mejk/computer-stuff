@@ -1,5 +1,7 @@
 # Webcam tools:
 
+This provides a CLI-based method to control your webcam.
+
 Install video for Linux control:
 
 ```
