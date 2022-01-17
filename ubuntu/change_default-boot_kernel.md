@@ -16,3 +16,17 @@ After done, run
 ```
 sudo update-grub
 ```
+This could say:
+```
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.13.0-25-generic
+Found initrd image: /boot/initrd.img-5.13.0-25-generic
+Found linux image: /boot/vmlinuz-5.11.0-46-generic
+Found initrd image: /boot/initrd.img-5.11.0-46-generic
+Found linux image: /boot/vmlinuz-5.11.0-27-generic
+Found initrd image: /boot/initrd.img-5.11.0-27-generic
+Adding boot menu entry for UEFI Firmware Settings
+done
+```
