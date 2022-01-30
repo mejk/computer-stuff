@@ -8,8 +8,10 @@ Install `kdeconnect` on the mobile device and Linux. This uses wifi (need to be 
 
 ## gmtp & mtp-tools
 
-Not sure if both are needed, but when both installed file transfer using USB works. Note that the Android device should be in "Use USB to transfer files" (or photos if that's the need) mode. 
-The device will prmpt this when connecting the USB cable.
+Not sure if both are needed, but when both installed file transfer using USB works. 
+
+Note that the Android device should be in *"Use USB to transfer files"* (or photos if that's the need) mode. The device will prompt this when connecting the USB cable.
+
 Simple installation:
 
 ```
