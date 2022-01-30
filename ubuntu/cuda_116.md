@@ -1,6 +1,10 @@
 # CUDA 11.6 installation
 
-Instractions for a quick installation. Don't use if you don't know what you're doing. Check the instructions at
+Instractions for a quick installation. Don't use if you don't know what you're doing. Check the instructions, pre- and post-installation actions and info at 
+
+- https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
+- https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
+- https://developer.nvidia.com/cuda-downloads
 
 ## Get the CUDA toolkit 
 
