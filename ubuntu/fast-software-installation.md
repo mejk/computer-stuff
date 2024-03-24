@@ -49,18 +49,15 @@ There are redundancies (but that doesn't make any difference). These packages ta
 
 ```
 sudo apt install openssh-server rar unrar p7zip-full p7zip-rar openjdk-11-jdk synaptic git g++ cmake gfortran gnuplot \
-gsl-bin grace povray povray-includes povray-doc pdf2svg cairosvg pngtools tkpng epstool ipython3 cython3 automake \
-autoconf h5utils openbabel openbabel-gui gawk fonts-mathjax autotools-dev chemical-mime-data fig2dev screen a2ps dvi2ps \
-python-opengl ipython3  libpng-tools tachyon doxygen equalx bibutils zlibc mathgl tcl-dev tk-dev tcl-tclreadline \
-libfftw3-dev sphinx-common cmake-curses-gui gcc-opt hwloc cpuinfo libhwloc-common libhwloc-dev libconfig++-dev \
-freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev build-essential \
-gcc-7 g++-7 gcc-8 g++-8 typecatcher fonts-liberation fonts-liberation2 texlive-full emacs emacs-goodies-el ispell \
-iamerican-insane ibritish-insane auctex tigervnc-viewer tigervnc-xorg-extension tigervnc-standalone-server \
-remmina  python3-pip python3-dev python3-dev python3-numpy cython python3-pytest libcairo2-dev \
-python3-venv python3-wheel python3-dev libgirepository1.0-dev libbz2-dev libreadline-dev \
+gsl-bin grace povray povray-includes povray-doc pdf2svg cairosvg pngtools tkpng epstool automake \
+autoconf h5utils openbabel openbabel-gui gawk fonts-mathjax autotools-dev chemical-mime-data fig2dev screen a2ps dvi2ps libpng-tools tachyon doxygen equalx bibutils mathgl tcl-dev tk-dev tcl-tclreadline \
+libfftw3-dev sphinx-common cmake-curses-gui gcc-opt cpuinfo libconfig++-dev \
+freeglut3-dev build-essential build-essential \
+typecatcher fonts-liberation fonts-liberation2 texlive-full emacs emacs-goodies-el ispell \
+iamerican-insane ibritish-insane \
+libcairo2-dev libgirepository1.0-dev libbz2-dev libreadline-dev \
 libssl-dev zlib1g-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libcairo2-dev \
-libgirepository1.0-dev pkg-config gir1.2-gtk-3.0 qt5-default gitk libboost-all-dev libglfw3 libglfw3-dev \
-python3-gpg npm
+libgirepository1.0-dev pkg-config gir1.2-gtk-3.0 gitk libboost-all-dev libglfw3 libglfw3-dev npm
 
 ```
 
