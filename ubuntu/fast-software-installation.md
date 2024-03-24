@@ -34,7 +34,7 @@ On KDE Neon Flatpak is installed automatically.
 
 ## Packages that need interaction because of licenses or some other reasons:
 ```
-sudo apt install ubuntu-restricted-extras ttf-mscorefonts-installer fonts-mathematica
+sudo apt install ubuntu-restricted-extras ttf-mscorefonts-installer
 ```
 for gnome based systems one may also want install these extras (not required; don't install with KDE):
 ```
