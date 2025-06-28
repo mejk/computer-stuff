@@ -1,5 +1,11 @@
 # kswapd0 takes 100% of CPU
 
+## 24.04
+
+- [set up swap](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-22-04)
+
+## OLD
+
 Instructions are here: [How To resolve High CPU occupation from kswapd0
 Why?](http://kb.lc/01.how_to/kswapd0/)
 
