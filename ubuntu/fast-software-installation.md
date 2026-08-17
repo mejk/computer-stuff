@@ -41,7 +41,19 @@ for gnome based systems one may also want install these extras (not required; do
 sudo apt install gnome-tweak-tool gnome-shell-extensions
 ```
 
-## These don't need user interaction (but no guarantees):
+## NEW:These don't need user interaction (but no guarantees):
+
+
+```
+sudo apt install synaptic git g++ cmake gfortran gnuplot gsl-bin grace povray povray-includes povray-doc pdf2svg cairosvg pngtools tkpng epstool automake \
+autoconf h5utils openbabel openbabel-gui gawk autotools-dev chemical-mime-data fig2dev screen a2ps dvi2ps libpng-tools tachyon doxygen bibutils mathgl \
+tcl-dev tk-dev tcl-tclreadline libfftw3-dev sphinx-common cmake-curses-gui cpuinfo libconfig++-dev freeglut3-dev \
+texlive-full emacs emacs-goodies-el ispell iamerican-insane ibritish-insane libcairo2-dev  libreadline-dev \
+wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libcairo2-dev libboost-all-dev libglfw3 libglfw3-dev npm
+
+```
+
+## OLD:These don't need user interaction (but no guarantees):
 
 But this will take a while (10-40 mins) for the first installation.
 
